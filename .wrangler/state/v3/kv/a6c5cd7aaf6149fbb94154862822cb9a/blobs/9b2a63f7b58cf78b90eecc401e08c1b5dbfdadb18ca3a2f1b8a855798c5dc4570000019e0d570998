@@ -1,0 +1,272 @@
+{
+  "id": "page_tU08GYe-",
+  "blocks": [
+    {
+      "id": "block_NTDFy0-G",
+      "type": "carousel",
+      "isVisible": true,
+      "content": {
+        "autoPlay": true,
+        "interval": 5000,
+        "items": [
+          {
+            "id": 1,
+            "image": "https://assets.kelloggfashion.com/uploads/884983f3-37.jpg",
+            "title": {
+              "zh": "Best Heavyweight Hoodies for Canadian Streetwear Brands",
+              "en": "Best Heavyweight Hoodies for Canadian Streetwear Brands"
+            },
+            "subtitle": {
+              "zh": "Heavyweight Hoodies Manufacturer Canada | Custom Streetwear Supplier",
+              "en": "Heavyweight Hoodies Manufacturer Canada | Custom Streetwear Supplier"
+            },
+            "cta": {
+              "zh": "了解更多",
+              "en": "Learn More"
+            },
+            "link": {
+              "id": "1pduqo613",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": ""
+            }
+          },
+          {
+            "id": 2,
+            "image": "https://assets.kelloggfashion.com/uploads/5fb25129-38.jpg",
+            "title": {
+              "zh": "Fast Shipping to Toronto, Vancouver, and Montreal",
+              "en": "Fast Shipping to Toronto, Vancouver, and Montreal"
+            },
+            "subtitle": {
+              "zh": "7–10 day sample turnaround | 15–20 days bulk production",
+              "en": "Subtitle"
+            },
+            "cta": {
+              "zh": "了解更多",
+              "en": "Learn More"
+            },
+            "link": {
+              "id": "0ky7horvl",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": ""
+            }
+          },
+          {
+            "id": 3,
+            "image": "https://assets.kelloggfashion.com/uploads/dedcd44b-39.jpg",
+            "title": {
+              "zh": "Experience serving Canadian streetwear brands",
+              "en": "Experience serving Canadian streetwear brands"
+            },
+            "subtitle": {
+              "zh": "Custom Manufacturing for Growing Canadian Streetwear Brands",
+              "en": "Custom Manufacturing for Growing Canadian Streetwear Brands"
+            },
+            "cta": {
+              "zh": "了解更多",
+              "en": "Learn More"
+            },
+            "link": {
+              "id": "757pxrutl",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_71xstIwc",
+      "type": "categories",
+      "isVisible": true,
+      "content": {
+        "showAll": true
+      }
+    },
+    {
+      "id": "block_v7PS1Btt",
+      "type": "featuredProducts",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "精选产品",
+          "en": "Featured Products"
+        },
+        "maxItems": 8,
+        "layout": "grid"
+      }
+    },
+    {
+      "id": "block_g2-Cuy9y",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Heavyweight Hoodies Manufacturer Canada",
+          "en": "Heavyweight Hoodies Manufacturer Canada"
+        },
+        "content": {
+          "zh": "Luxury Fur Trim Heavyweight Hoodie – 500 GSM Premium Streetwear",
+          "en": "Luxury Fur Trim Heavyweight Hoodie – 500 GSM Premium Streetwear"
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/83ea4680-46.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "View More",
+          "en": "View More"
+        },
+        "buttonLink": "https://kelloggfashion.com/product/182"
+      }
+    },
+    {
+      "id": "block_prxPvAfW",
+      "type": "textSection",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Why Canadian Buyers Choose Kellogg Fashion",
+          "en": "Why Canadian Buyers Choose Kellogg Fashion"
+        },
+        "content": {
+          "zh": ". Fabric weights from 400 GSM to 600 GSM\n. 100% cotton or cotton-poly fleece options\n. Shrinkage below 3%\n. Pantone color accuracy above 95%\n. Double-needle stitching at 9-10 SPI\n. Sizes from XS to 3XL\nEvery garment is designed to meet Canadian retail expectations for quality, comfort, and long-term wear.",
+          "en": ". Fabric weights from 400 GSM to 600 GSM\n. 100% cotton or cotton-poly fleece options\n. Shrinkage below 3%\n. Pantone color accuracy above 95%\n. Double-needle stitching at 9-10 SPI\n. Sizes from XS to 3XL\nEvery garment is designed to meet Canadian retail expectations for quality, comfort, and long-term wear."
+        },
+        "alignment": "center",
+        "paddingY": "medium"
+      }
+    },
+    {
+      "id": "block_40Yt5y-a",
+      "type": "faq",
+      "isVisible": true,
+      "content": {
+        "maxItems": 5,
+        "showMoreLink": true,
+        "items": [
+          {
+            "id": 1,
+            "question": {
+              "zh": "What hoodie fabric weights do you offer for the Canadian market?",
+              "en": "What hoodie fabric weights do you offer for the Canadian market?"
+            },
+            "answer": {
+              "zh": "We manufacture heavyweight hoodies ranging from 400 GSM to 600 GSM, including our most popular 500 GSM, 580 GSM, and 600 GSM options. These fabric weights are specifically chosen to meet the needs of Canadian streetwear brands and retailers, where durability, warmth, and structure are essential. For most Canadian customers, 500 GSM is the best-selling option due to its balance of comfort and premium hand feel.",
+              "en": "We manufacture heavyweight hoodies ranging from 400 GSM to 600 GSM, including our most popular 500 GSM, 580 GSM, and 600 GSM options. These fabric weights are specifically chosen to meet the needs of Canadian streetwear brands and retailers, where durability, warmth, and structure are essential. For most Canadian customers, 500 GSM is the best-selling option due to its balance of comfort and premium hand feel."
+            }
+          },
+          {
+            "id": 2,
+            "question": {
+              "zh": "What is your minimum order quantity for Canada?",
+              "en": "What is your minimum order quantity for Canada?"
+            },
+            "answer": {
+              "zh": "Our standard MOQ is 100 pieces per color per design. This allows Canadian startups, independent brands, and established retailers to launch collections with manageable inventory levels while maintaining competitive factory pricing. Mixed-size runs from XS to 3XL are included within the MOQ.",
+              "en": "Our standard MOQ is 100 pieces per color per design. This allows Canadian startups, independent brands, and established retailers to launch collections with manageable inventory levels while maintaining competitive factory pricing. Mixed-size runs from XS to 3XL are included within the MOQ."
+            }
+          },
+          {
+            "id": 3,
+            "question": {
+              "zh": "How long does production and shipping to Canada take?",
+              "en": "How long does production and shipping to Canada take?"
+            },
+            "answer": {
+              "zh": "Sample production typically takes 5 to 7 business days. Bulk production requires 15 to 25 business days after sample approval. Shipping to major Canadian cities such as Toronto, Vancouver, Montreal, and Calgary usually takes 5 to 8 days by air freight or 25 to 35 days by sea freight.",
+              "en": "Sample production typically takes 5 to 7 business days. Bulk production requires 15 to 25 business days after sample approval. Shipping to major Canadian cities such as Toronto, Vancouver, Montreal, and Calgary usually takes 5 to 8 days by air freight or 25 to 35 days by sea freight."
+            }
+          },
+          {
+            "id": 4,
+            "question": {
+              "zh": "Can you provide custom branding for Canadian clothing brands?",
+              "en": "Can you provide custom branding for Canadian clothing brands?"
+            },
+            "answer": {
+              "zh": "Yes. We offer complete private label manufacturing services, including custom woven neck labels, hang tags, care labels, packaging, barcodes, and branded poly bags. Decoration options include screen printing, puff printing, embroidery, chenille patches, acid wash, and vintage garment dyeing.",
+              "en": "Yes. We offer complete private label manufacturing services, including custom woven neck labels, hang tags, care labels, packaging, barcodes, and branded poly bags. Decoration options include screen printing, puff printing, embroidery, chenille patches, acid wash, and vintage garment dyeing."
+            }
+          },
+          {
+            "id": 5,
+            "question": {
+              "zh": "What fabric composition is recommended for Canadian streetwear?",
+              "en": "What fabric composition is recommended for Canadian streetwear?"
+            },
+            "answer": {
+              "zh": "For premium streetwear collections, we recommend 100% combed cotton or an 80% cotton / 20% polyester blend. Both options provide excellent durability, shape retention, and comfort. The cotton-poly blend is particularly popular in Canada because it offers improved shrink resistance and enhanced winter performance.",
+              "en": "For premium streetwear collections, we recommend 100% combed cotton or an 80% cotton / 20% polyester blend. Both options provide excellent durability, shape retention, and comfort. The cotton-poly blend is particularly popular in Canada because it offers improved shrink resistance and enhanced winter performance."
+            }
+          },
+          {
+            "id": 6,
+            "question": {
+              "zh": "Do your hoodies shrink after washing?",
+              "en": "Do your hoodies shrink after washing?"
+            },
+            "answer": {
+              "zh": "Our heavyweight hoodies are pre-shrunk during production. Controlled shrinkage remains below 3% after standard home washing at 30°C. This meets the quality expectations of Canadian retail customers and reduces sizing complaints.",
+              "en": "Our heavyweight hoodies are pre-shrunk during production. Controlled shrinkage remains below 3% after standard home washing at 30°C. This meets the quality expectations of Canadian retail customers and reduces sizing complaints."
+            }
+          },
+          {
+            "id": 7,
+            "question": {
+              "zh": "Which decoration methods are most popular in Canada?",
+              "en": "Which decoration methods are most popular in Canada?"
+            },
+            "answer": {
+              "zh": "Canadian streetwear brands most frequently choose puff printing, high-density screen printing, embroidery, chenille patches, and vintage washing. These decoration methods align with current Canadian streetwear and premium casualwear trends.",
+              "en": "Canadian streetwear brands most frequently choose puff printing, high-density screen printing, embroidery, chenille patches, and vintage washing. These decoration methods align with current Canadian streetwear and premium casualwear trends."
+            }
+          },
+          {
+            "id": 8,
+            "question": {
+              "zh": "Can you ship directly to Canada?",
+              "en": "Can you ship directly to Canada?"
+            },
+            "answer": {
+              "zh": "Yes. We regularly ship to Toronto, Vancouver, Montreal, Calgary, Edmonton, and other major Canadian cities. We support DDP, DDU, FOB, and CIF shipping terms based on your preferred import method.",
+              "en": "Yes. We regularly ship to Toronto, Vancouver, Montreal, Calgary, Edmonton, and other major Canadian cities. We support DDP, DDU, FOB, and CIF shipping terms based on your preferred import method."
+            }
+          },
+          {
+            "id": 9,
+            "question": {
+              "zh": "How do you ensure product quality before shipment?",
+              "en": "How do you ensure product quality before shipment?"
+            },
+            "answer": {
+              "zh": "Every order undergoes a three-stage quality control process: fabric inspection, inline production inspection, and final AQL 2.5 pre-shipment inspection. This helps maintain consistent quality across all bulk orders.",
+              "en": "Every order undergoes a three-stage quality control process: fabric inspection, inline production inspection, and final AQL 2.5 pre-shipment inspection. This helps maintain consistent quality across all bulk orders."
+            }
+          },
+          {
+            "id": 10,
+            "question": {
+              "zh": "Why do Canadian brands choose Kellogg Fashion?",
+              "en": "Why do Canadian brands choose Kellogg Fashion?"
+            },
+            "answer": {
+              "zh": "Canadian buyers choose us because we specialize in heavyweight hoodies from 400 GSM to 600 GSM, offer low MOQs starting at 100 pieces, maintain fast production timelines, and provide reliable international shipping. Our factory supports both emerging Canadian brands and established retailers with scalable OEM and private label solutions.",
+              "en": "Canadian buyers choose us because we specialize in heavyweight hoodies from 400 GSM to 600 GSM, offer low MOQs starting at 100 pieces, maintain fast production timelines, and provide reliable international shipping. Our factory supports both emerging Canadian brands and established retailers with scalable OEM and private label solutions."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

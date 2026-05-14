@@ -1,0 +1,61 @@
+{
+  "id": "page_VCnl86ax",
+  "blocks": [
+    {
+      "id": "block_PYaAyDHw",
+      "type": "carousel",
+      "isVisible": true,
+      "content": {
+        "autoPlay": true,
+        "interval": 5000,
+        "items": [
+          {
+            "id": 1,
+            "image": "",
+            "title": {
+              "zh": "Sample Development",
+              "en": "Sample Development"
+            },
+            "subtitle": {
+              "zh": "Custom Apparel Sample Development for Streetwear Brands",
+              "en": "Custom Apparel Sample Development for Streetwear Brands"
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "vfyqxkgpb",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/inquiry",
+              "pageDeleted": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_exRDB3Fg",
+      "type": "imageFull",
+      "isVisible": true,
+      "content": {
+        "image": "https://assets.kelloggfashion.com/uploads/f3ca1880-500gsm hoodies manufacturer -7.png",
+        "height": "full",
+        "overlay": false,
+        "description": {
+          "zh": "Heavyweight Hoodie & Oversized T-Shirt Sample Development",
+          "en": "Heavyweight Hoodie & Oversized T-Shirt Sample Development"
+        },
+        "width": "full",
+        "alt": {
+          "zh": "Custom Apparel Sample Development for Streetwear Brands",
+          "en": "Custom Apparel Sample Development for Streetwear Brands"
+        }
+      }
+    }
+  ]
+}

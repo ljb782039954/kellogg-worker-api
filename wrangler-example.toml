@@ -1,0 +1,37 @@
+name = "kellogg-api"
+main = "src/index.ts"
+compatibility_date = "2026-03-18"
+
+# 本地开发端口
+[dev]
+port = 8787
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "kellogg-xxx"
+database_id = "1979d57a-"
+migrations_dir = "migrations"
+
+# R2 存储桶绑定
+[[r2_buckets]]
+binding = "ASSETS"
+bucket_name = "kellogg-xxx"
+
+# KV 命名空间绑定
+[[kv_namespaces]]
+binding = "KELLOGG_xxx"
+id = "a6c5cxxxa"
+
+# 环境变量
+[vars]
+ASSETS_BASE_URL = "https://xxx.kelloggfashion.com"
+CORS_ORIGIN = "*"
+
+# 生产环境配置
+[env.production]
+vars = { CORS_ORIGIN = "https://kelloggfashion.com" }
+
+# 定时任务触发器 (每周日凌晨 3:00 执行一次 GC，每天凌晨 0:00 执行汇率同步)
+[triggers]
+crons = ["0 3 * * SUN", "0 0 * * *"]

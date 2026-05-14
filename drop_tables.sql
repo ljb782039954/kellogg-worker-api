@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS carousel_slides;
+DROP TABLE IF EXISTS brand_values;
+DROP TABLE IF EXISTS statistics;
+DROP TABLE IF EXISTS testimonials;
+DROP TABLE IF EXISTS factory_sections;
+DROP TABLE IF EXISTS faq_items;
+DROP TABLE IF EXISTS pages;
+DROP TABLE IF EXISTS page_blocks;
+DROP TABLE IF EXISTS footer_groups;
+DROP TABLE IF EXISTS footer_links;
+DROP TABLE IF EXISTS site_config;

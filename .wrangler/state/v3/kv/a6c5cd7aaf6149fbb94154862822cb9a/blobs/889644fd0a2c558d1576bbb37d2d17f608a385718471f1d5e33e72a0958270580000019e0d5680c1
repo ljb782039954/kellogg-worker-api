@@ -1,0 +1,336 @@
+{
+  "id": "page_04nJbSUr",
+  "blocks": [
+    {
+      "id": "block_hCXuwOeA",
+      "type": "carousel",
+      "isVisible": true,
+      "content": {
+        "autoPlay": true,
+        "interval": 5000,
+        "items": [
+          {
+            "id": 1,
+            "image": "https://assets.kelloggfashion.com/uploads/ae27fe4c-500gsm hoodies manufacturer -2.png",
+            "title": {
+              "zh": "Heavyweight Streetwear Production Services for Global Fashion Brands",
+              "en": "Heavyweight Streetwear Production Services for Global Fashion Brands"
+            },
+            "subtitle": {
+              "zh": "✔ Heavyweight Hoodie Manufacturing.  ✔ Oversized T-Shirt Production.  ✔ Custom Fabric Development  ✔ Printing & Washing Services ✔ Private Label Services",
+              "en": "✔ Heavyweight Hoodie Manufacturing.  ✔ Oversized T-Shirt Production.  ✔ Custom Fabric Development  ✔ Printing & Washing Services ✔ Private Label Services"
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "hsym65ibm",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/inquiry",
+              "pageDeleted": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_dHBs2vQU",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Heavyweight Hoodie Manufacturing | Oversized T-Shirt Production",
+          "en": "Heavyweight Hoodie Manufacturing | Oversized T-Shirt Production"
+        },
+        "content": {
+          "zh": "Premium Heavyweight Hoodie Manufacturing Services://\nAt Kellogg Fashion, we specialize in producing premium heavyweight hoodies for streetwear brands worldwide. Our hoodies are crafted with 400–600gsm high-quality fabrics to ensure durability, comfort, and a perfect oversized fit. We combine modern streetwear design with precise garment construction, helping brands deliver consistent, trend-driven products to their customers.//\nWhy Choose Kellogg for Heavyweight Hoodies://\nExpertise in Heavyweight Fabrics: We work with cotton fleece, French terry, brushed fleece, and custom fabric blends designed to maintain shape, softness, and color after multiple washes.//\nPrecision Sewing & Construction:Double-needle stitching, reinforced shoulder taping, rib attachment, and flatlock seams ensure durability and premium hand-feel.//\nCustom Design & Fit:Oversized silhouettes, drop shoulders, kangaroo pockets, and adjustable hoods are all tailored to your brand specifications.//\nFlexible Production & MOQ:From small-batch startup collections to large-scale orders, we maintain consistent quality and timely delivery.",
+          "en": "Premium Heavyweight Hoodie Manufacturing Services://\nAt Kellogg Fashion, we specialize in producing premium heavyweight hoodies for streetwear brands worldwide. Our hoodies are crafted with 400–600gsm high-quality fabrics to ensure durability, comfort, and a perfect oversized fit. We combine modern streetwear design with precise garment construction, helping brands deliver consistent, trend-driven products to their customers.//\nWhy Choose Kellogg for Heavyweight Hoodies://\nExpertise in Heavyweight Fabrics: We work with cotton fleece, French terry, brushed fleece, and custom fabric blends designed to maintain shape, softness, and color after multiple washes.//\nPrecision Sewing & Construction:Double-needle stitching, reinforced shoulder taping, rib attachment, and flatlock seams ensure durability and premium hand-feel.//\nCustom Design & Fit:Oversized silhouettes, drop shoulders, kangaroo pockets, and adjustable hoods are all tailored to your brand specifications.//\nFlexible Production & MOQ:From small-batch startup collections to large-scale orders, we maintain consistent quality and timely delivery."
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/149c4277-500gsm hoodies manufacturer.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "Get Free Quote in 24 Hours",
+          "en": "Get Free Quote in 24 Hours"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry"
+      }
+    },
+    {
+      "id": "block_YXDeEn1v",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Our Heavyweight Hoodie Manufacturing Process",
+          "en": "Our Heavyweight Hoodie Manufacturing Process"
+        },
+        "content": {
+          "zh": "Our Heavyweight Hoodie Manufacturing Process://\nFabric Selection & Testing:GSM verification (400–600gsm) Shrinkle testing; Color fastness testing; Fabric hand-feel and softness assessment.//\nPattern Development & Sampling: Custom sizing and oversized patterns;Fit adjustment for multiple markets (US, UK, Australia);Wash effect samples (acid wash, enzyme wash, garment dye).//\nProduction & Quality Control:High-precision sewing for thick fabrics;Reinforced seams and rib attachments;QC inspection at every stage: needle inspection, stitching density, measurement accuracy. //\nFinishing & Packaging:Folding and bagging according to brand requirements;Custom woven labels and hangtags; Ready-to-ship bulk orders.\n",
+          "en": "Our Heavyweight Hoodie Manufacturing Process://\nFabric Selection & Testing:GSM verification (400–600gsm) Shrinkle testing; Color fastness testing; Fabric hand-feel and softness assessment.//\nPattern Development & Sampling: Custom sizing and oversized patterns;Fit adjustment for multiple markets (US, UK, Australia);Wash effect samples (acid wash, enzyme wash, garment dye).//\nProduction & Quality Control:High-precision sewing for thick fabrics;Reinforced seams and rib attachments;QC inspection at every stage: needle inspection, stitching density, measurement accuracy. //\nFinishing & Packaging:Folding and bagging according to brand requirements;Custom woven labels and hangtags; Ready-to-ship bulk orders.\n"
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/70f40157-500gsm hoodies manufacturer-9.jpg",
+        "imagePosition": "right",
+        "buttonText": {
+          "zh": "Get Free Quote in 24 Hourse",
+          "en": "Get Free Quote in 24 Hourse"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry"
+      }
+    },
+    {
+      "id": "block_TTTmUs6p",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "When it comes to manufacturing clothes, having a well-made tech pack is very important.",
+          "en": "When it comes to manufacturing clothes, having a well-made tech pack is very important."
+        },
+        "content": {
+          "zh": "A tech pack is a document that you need to create in order to communicate your design to a manufacturer. The document contains all of the technical information about your product line in one place.//\nAlthough it may be difficult to start working on a tech pack, it is important that you take the time to do it correctly. This includes things like finding the right materials, understanding how the product is assembled, and what type of packaging will work best.//\nThe following are included in our tech pack service://\nFree design consultation //\nConstruction call-outs //\nTechnical drawings to scale //\nMultiple colorways, print; embellishment details //\nBasic Graded Specs //\nPoint of measurement diagrams //\nBill of Materials (if you have all the materials) //\nBrand; Care Labels, Folding instructions, Tags; Packaging //\nSample Price: $50-$100 //\nSample time: 2 weeks //\nWe will gladly provide you with tech pack FREE OF CHARGE if you choose to work with us for clothing manufacturing.",
+          "en": "A tech pack is a document that you need to create in order to communicate your design to a manufacturer. The document contains all of the technical information about your product line in one place.//\nAlthough it may be difficult to start working on a tech pack, it is important that you take the time to do it correctly. This includes things like finding the right materials, understanding how the product is assembled, and what type of packaging will work best.//\nThe following are included in our tech pack service://\nFree design consultation //\nConstruction call-outs //\nTechnical drawings to scale //\nMultiple colorways, print; embellishment details //\nBasic Graded Specs //\nPoint of measurement diagrams //\nBill of Materials (if you have all the materials) //\nBrand; Care Labels, Folding instructions, Tags; Packaging //\nSample Price: $50-$100 //\nSample time: 2 weeks //\nWe will gladly provide you with tech pack FREE OF CHARGE if you choose to work with us for clothing manufacturing."
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/913ab998-500gsm hoodies manufacturer-6.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "Get Free Quote in 24 Hourse",
+          "en": "Get Free Quote in 24 Hourse"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry"
+      }
+    },
+    {
+      "id": "block_Ud_QXuyn",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "How We Make Your Tech Pack",
+          "en": "How We Make Your Tech Pack"
+        },
+        "features": [],
+        "columns": 3,
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Understanding Your Design Vision",
+              "en": "Understanding Your Design Vision"
+            },
+            "description": {
+              "zh": "Every successful garment starts with a clear understanding of the brand’s vision. At Kellogg Fashion\n, we carefully review your sketches, reference images, measurements, fabric requirements, and construction details before creating the tech pack. Our team communicates closely with clients to confirm oversized fit proportions, garment weight, sewing details, printing placement, washing effects, and overall streetwear aesthetics. This process helps reduce misunderstandings and ensures your product is production-ready from the beginning.",
+              "en": "Every successful garment starts with a clear understanding of the brand’s vision. At Kellogg Fashion\n, we carefully review your sketches, reference images, measurements, fabric requirements, and construction details before creating the tech pack. Our team communicates closely with clients to confirm oversized fit proportions, garment weight, sewing details, printing placement, washing effects, and overall streetwear aesthetics. This process helps reduce misunderstandings and ensures your product is production-ready from the beginning."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Creating Accurate Technical Specifications",
+              "en": "Creating Accurate Technical Specifications"
+            },
+            "description": {
+              "zh": "Once the design direction is confirmed, our development team builds a detailed tech pack with precise garment specifications. This includes measurements, size grading, stitching methods, fabric composition, GSM details, trim information, label placement, print dimensions, and sewing construction. For heavyweight hoodies and oversized streetwear garments, we also include important production details such as rib width, shoulder drop measurements, hood construction, and shrinkage tolerance to ensure consistency during bulk production.",
+              "en": "Once the design direction is confirmed, our development team builds a detailed tech pack with precise garment specifications. This includes measurements, size grading, stitching methods, fabric composition, GSM details, trim information, label placement, print dimensions, and sewing construction. For heavyweight hoodies and oversized streetwear garments, we also include important production details such as rib width, shoulder drop measurements, hood construction, and shrinkage tolerance to ensure consistency during bulk production."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Fabric & Construction Confirmation",
+              "en": "Fabric & Construction Confirmation"
+            },
+            "description": {
+              "zh": "Before sampling begins, we confirm all material and construction details with the client. Our team helps recommend suitable fabrics such as French terry, brushed fleece, heavyweight cotton jersey, or garment-dyed materials based on the desired hand-feel and fit. We also review printing techniques, embroidery methods, washing processes, and sewing construction to ensure the tech pack matches real production capabilities. This stage is important for avoiding production delays and maintaining product quality.",
+              "en": "Before sampling begins, we confirm all material and construction details with the client. Our team helps recommend suitable fabrics such as French terry, brushed fleece, heavyweight cotton jersey, or garment-dyed materials based on the desired hand-feel and fit. We also review printing techniques, embroidery methods, washing processes, and sewing construction to ensure the tech pack matches real production capabilities. This stage is important for avoiding production delays and maintaining product quality."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Sampling, Revisions & Production Preparation",
+              "en": "Sampling, Revisions & Production Preparation"
+            },
+            "description": {
+              "zh": "After the tech pack is finalized, we move into sample development and production preparation. During sampling, our team checks fit accuracy, sewing quality, fabric performance, and wash results against the original tech pack specifications. Any revisions are updated directly into the tech pack to create a clear production standard for bulk manufacturing. This process allows Kellogg Fashion to deliver stable quality, consistent sizing, and efficient production for global streetwear brands.",
+              "en": "After the tech pack is finalized, we move into sample development and production preparation. During sampling, our team checks fit accuracy, sewing quality, fabric performance, and wash results against the original tech pack specifications. Any revisions are updated directly into the tech pack to create a clear production standard for bulk manufacturing. This process allows Kellogg Fashion to deliver stable quality, consistent sizing, and efficient production for global streetwear brands."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_VC3vqF26",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Tech Pack Examples",
+          "en": "Tech Pack Examples"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/99d674e7-500gsm hoodies manufacturer -3.png",
+            "caption": {
+              "zh": "Tech Pack Example - Hoodie",
+              "en": "Tech Pack Example - Hoodie"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/3cb46359-500gsm hoodies manufacturer -4.png",
+            "caption": {
+              "zh": "Tech Pack Example - Jogger",
+              "en": "Tech Pack Example - Jogger"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/1da57953-500gsm hoodies manufacturer -5.png",
+            "caption": {
+              "zh": "Tech Pack Example - Tshirt",
+              "en": "Tech Pack Example - Tshirt"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_46Z9-aLL",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Heavyweight Hoodie Manufacturing — Kellogg Fashion",
+          "en": "Heavyweight Hoodie Manufacturing — Kellogg Fashion"
+        },
+        "features": [],
+        "columns": 3,
+        "subtitle": {
+          "zh": "At Kellogg Fashion, we specialize in producing premium heavyweight hoodies for streetwear brands worldwide. Our hoodies are crafted with 400–600gsm high-quality fabrics to ensure durability, comfort, and a perfect oversized fit. We combine modern streetwear design with precise garment construction, helping brands deliver consistent, trend-driven products to their customers.",
+          "en": "At Kellogg Fashion, we specialize in producing premium heavyweight hoodies for streetwear brands worldwide. Our hoodies are crafted with 400–600gsm high-quality fabrics to ensure durability, comfort, and a perfect oversized fit. We combine modern streetwear design with precise garment construction, helping brands deliver consistent, trend-driven products to their customers."
+        },
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Why Choose Kellogg for Heavyweight Hoodies",
+              "en": "Why Choose Kellogg for Heavyweight Hoodies"
+            },
+            "description": {
+              "zh": "Expertise in Heavyweight Fabrics：We work with cotton fleece, French terry, brushed fleece, and custom fabric blends designed to maintain shape, softness, and color after multiple washes. \nPrecision Sewing & Construction：Double-needle stitching, reinforced shoulder taping, rib attachment, and flatlock seams ensure durability and premium hand-feel. \nCustom Design & Fit：Oversized silhouettes, drop shoulders, kangaroo pockets, and adjustable hoods are all tailored to your brand specifications. \nFlexible Production & MOQ：From small-batch startup collections to large-scale orders, we maintain consistent quality and timely delivery.",
+              "en": "Expertise in Heavyweight Fabrics：We work with cotton fleece, French terry, brushed fleece, and custom fabric blends designed to maintain shape, softness, and color after multiple washes. \nPrecision Sewing & Construction：Double-needle stitching, reinforced shoulder taping, rib attachment, and flatlock seams ensure durability and premium hand-feel. \nCustom Design & Fit：Oversized silhouettes, drop shoulders, kangaroo pockets, and adjustable hoods are all tailored to your brand specifications. \nFlexible Production & MOQ：From small-batch startup collections to large-scale orders, we maintain consistent quality and timely delivery."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Our Heavyweight Hoodie Manufacturing Process",
+              "en": "Our Heavyweight Hoodie Manufacturing Process"
+            },
+            "description": {
+              "zh": "Fabric Selection & Testing:GSM verification (400–600gsm);Shrinkage testing;Color fastness testing;Fabric hand-feel and softness assessment. \nPattern Development & Sampling:Custom sizing and oversized patterns;Fit adjustment for multiple markets (US, UK, Australia);Wash effect samples (acid wash, enzyme wash, garment dye).\nProduction & Quality Control: High-precision sewing for thick fabrics;Reinforced seams and rib attachments; QC inspection at every stage: needle inspection, stitching density, measurement accuracy \nFinishing & Packaging:Folding and bagging according to brand requirements ;Custom woven labels and hangtags;Ready-to-ship bulk orders",
+              "en": "Fabric Selection & Testing:GSM verification (400–600gsm);Shrinkage testing;Color fastness testing;Fabric hand-feel and softness assessment. \nPattern Development & Sampling:Custom sizing and oversized patterns;Fit adjustment for multiple markets (US, UK, Australia);Wash effect samples (acid wash, enzyme wash, garment dye).\nProduction & Quality Control: High-precision sewing for thick fabrics;Reinforced seams and rib attachments; QC inspection at every stage: needle inspection, stitching density, measurement accuracy \nFinishing & Packaging:Folding and bagging according to brand requirements ;Custom woven labels and hangtags;Ready-to-ship bulk orders"
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Customization Options",
+              "en": "Customization Options"
+            },
+            "description": {
+              "zh": "We understand that every streetwear brand is unique. Kellogg Fashion offers:\n\nFabric: Fleece, French terry, brushed cotton, custom blends\nColors & Washes: Acid wash, vintage wash, garment dye\nPrinting & Embroidery: Puff print, screen print, embroidery, custom patches\nHardware: Drawstrings, zippers, metal eyelets, toggles",
+              "en": "We understand that every streetwear brand is unique. Kellogg Fashion offers:\n\nFabric: Fleece, French terry, brushed cotton, custom blends\nColors & Washes: Acid wash, vintage wash, garment dye\nPrinting & Embroidery: Puff print, screen print, embroidery, custom patches\nHardware: Drawstrings, zippers, metal eyelets, toggles"
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Lead Time & Production Capacity",
+              "en": "Lead Time & Production Capacity"
+            },
+            "description": {
+              "zh": "Sample Production: 7–14 days\nBulk Production: 15-20 days depending on order size\nMOQ: Flexible for small-batch and startup brands\nMarkets Served: USA, UK, Australia, Europe\nShipping Way: UPS, DHL, Fedex, By Air, By Sea",
+              "en": "Sample Production: 7–14 days\nBulk Production: 15-20 days depending on order size\nMOQ: Flexible for small-batch and startup brands\nMarkets Served: USA, UK, Australia, Europe\nShipping Way: UPS, DHL, Fedex, By Air, By Sea"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_Y2Rw0A_f",
+      "type": "faq",
+      "isVisible": true,
+      "content": {
+        "maxItems": 5,
+        "showMoreLink": true,
+        "subtitle": {
+          "zh": "在这里您可以找到常见问题的解答",
+          "en": "FAQ - Find answers to common questions here"
+        },
+        "items": [
+          {
+            "id": 1,
+            "question": {
+              "zh": "Q1: What GSM do you recommend for heavyweight hoodies?",
+              "en": "Q1: What GSM do you recommend for heavyweight hoodies?"
+            },
+            "answer": {
+              "zh": "A: We recommend 400–600gsm for optimal weight, warmth, and durability.",
+              "en": "A: We recommend 400–600gsm for optimal weight, warmth, and durability."
+            }
+          },
+          {
+            "id": 2,
+            "question": {
+              "zh": "Q2: How do you control shrinkage in thick fabrics?",
+              "en": "Q2: How do you control shrinkage in thick fabrics?"
+            },
+            "answer": {
+              "zh": "A: All fabrics undergo pre-shrinkage testing, and we use precise sewing techniques to maintain size after washes.",
+              "en": "A: All fabrics undergo pre-shrinkage testing, and we use precise sewing techniques to maintain size after washes."
+            }
+          },
+          {
+            "id": 3,
+            "question": {
+              "zh": "Q3: Can you make custom oversized fits?",
+              "en": "Q3: Can you make custom oversized fits?"
+            },
+            "answer": {
+              "zh": "A: Yes, we specialize in drop-shoulder, boxy, and oversized streetwear silhouettes.",
+              "en": "A: Yes, we specialize in drop-shoulder, boxy, and oversized streetwear silhouettes."
+            }
+          },
+          {
+            "id": 4,
+            "question": {
+              "zh": "Q4: Do you offer private label services?",
+              "en": "Q4: Do you offer private label services?"
+            },
+            "answer": {
+              "zh": "A: Yes, including woven labels, hangtags, custom packaging, and branded inserts.",
+              "en": "A: Yes, including woven labels, hangtags, custom packaging, and branded inserts."
+            }
+          },
+          {
+            "id": 5,
+            "question": {
+              "zh": "Q5: What printing and washing options are available?",
+              "en": "Q5: What printing and washing options are available?"
+            },
+            "answer": {
+              "zh": "A: Puff print, screen print, embroidery, acid wash, garment dye, and vintage wash are all available.",
+              "en": "A: Puff print, screen print, embroidery, acid wash, garment dye, and vintage wash are all available."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

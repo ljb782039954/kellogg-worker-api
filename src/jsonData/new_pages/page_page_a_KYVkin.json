@@ -1,0 +1,862 @@
+{
+  "id": "page_a_KYVkin",
+  "blocks": [
+    {
+      "id": "block_b-Y-MJfV",
+      "type": "carousel",
+      "isVisible": true,
+      "content": {
+        "autoPlay": true,
+        "interval": 5000,
+        "items": [
+          {
+            "id": 1,
+            "image": "https://assets.kelloggfashion.com/uploads/5fb25129-38.jpg",
+            "title": {
+              "zh": "oversized heavyweight hoodie",
+              "en": "oversized heavyweight hoodie"
+            },
+            "subtitle": {
+              "zh": "Oversized Heavyweight Hoodies For American Streetwear Brands",
+              "en": "Oversized Heavyweight Hoodies For American Streetwear Brands"
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "mjc0kipj0",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/usa-heavyweight-hoodie-manufacturer",
+              "pageDeleted": false
+            }
+          },
+          {
+            "id": 2,
+            "image": "https://assets.kelloggfashion.com/uploads/a3e32a55-25.jpg",
+            "title": {
+              "zh": "500gsm hoodie manufacturer",
+              "en": "500gsm hoodie manufacturer"
+            },
+            "subtitle": {
+              "zh": "500GSM Blank Hoodies Manufactured In China For USA",
+              "en": "500GSM Blank Hoodies Manufactured In China For USA"
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "ob85i32p6",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/usa-heavyweight-hoodie-manufacturer",
+              "pageDeleted": false
+            }
+          },
+          {
+            "id": 3,
+            "image": "https://assets.kelloggfashion.com/uploads/69dc8461-26.jpg",
+            "title": {
+              "zh": "Tech-infused Performance Knit Apparel Supplier",
+              "en": "Tech-infused Performance Knit Apparel Supplier"
+            },
+            "subtitle": {
+              "zh": "Traceable supply chain from fiber to finished garment",
+              "en": "Traceable supply chain from fiber to finished garment"
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "j06vlcun6",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/usa-heavyweight-hoodie-manufacturer",
+              "pageDeleted": false
+            }
+          },
+          {
+            "id": 4,
+            "image": "https://assets.kelloggfashion.com/uploads/9510b3ba-28.jpg",
+            "title": {
+              "zh": "drop shoulder hoodie",
+              "en": "drop shoulder hoodie"
+            },
+            "subtitle": {
+              "zh": "Custom Boxy Fit Hoodies With Puff Print & Embroidery",
+              "en": "Custom Boxy Fit Hoodies With Puff Print & Embroidery"
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "yeqgh5hrm",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/usa-heavyweight-hoodie-manufacturer",
+              "pageDeleted": false
+            }
+          },
+          {
+            "id": 5,
+            "image": "https://assets.kelloggfashion.com/uploads/5740a9d8-27.jpg",
+            "title": {
+              "zh": "Small Batch Knit Apparel Manufacturing (Low MOQ)",
+              "en": "Small Batch Knit Apparel Manufacturing (Low MOQ)"
+            },
+            "subtitle": {
+              "zh": "Fabric Specs: 30s/1, 40s/1 combed cotton, 240 GSM, or single jersey knit.",
+              "en": "Fabric Specs: 30s/1, 40s/1 combed cotton, 240 GSM, or single jersey knit."
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "ql5wn2rtc",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/products",
+              "pageDeleted": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_UlQ7Y7I4",
+      "type": "textSection",
+      "isVisible": false,
+      "content": {
+        "title": {
+          "zh": "OEM / ODM Oversized Hoodies for Streetwear Brands in USA, UK & Australia",
+          "en": "OEM / ODM Oversized Hoodies for Streetwear Brands in USA, UK & Australia"
+        },
+        "content": {
+          "zh": "✔ 10+ Years Manufacturing Experience. \n✔ 200+ Streetwear Brands Served. \n✔ OEKO-TEX / BSCI Certified Factory. \n✔ Export to USA / Europe / Australia",
+          "en": "✔ 10+ Years Manufacturing Experience. \n✔ 200+ Streetwear Brands Served. \n✔ OEKO-TEX / BSCI Certified Factory. \n✔ Export to USA / Europe / Australia"
+        },
+        "alignment": "center",
+        "paddingY": "medium"
+      }
+    },
+    {
+      "id": "block_5E6qjemw",
+      "type": "categories",
+      "isVisible": true,
+      "content": {
+        "showAll": true
+      }
+    },
+    {
+      "id": "block_5Hwg0aMO",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Trusted by streetwear brands across Los Angeles, New York, Miami and other major US cities.",
+          "en": "Trusted by streetwear brands across Los Angeles, New York, Miami and other major US cities."
+        },
+        "content": {
+          "zh": "Custom Heavyweight Hoodies, Oversized T-Shirts and Blank Streetwear Manufacturing for USA Brands. Low MOQ, Fast Sampling and Reliable Shipping to the United States. Trusted by brands from Los Angeles to New York.",
+          "en": "Custom Heavyweight Hoodies, Oversized T-Shirts and Blank Streetwear Manufacturing for USA Brands. Low MOQ, Fast Sampling and Reliable Shipping to the United States. Trusted by brands from Los Angeles to New York."
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/84babd19-350gsm heavyweight hoodie manufacturer Australia -1.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "Start Your Custom Project",
+          "en": "Start Your Custom Project"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry"
+      }
+    },
+    {
+      "id": "block_aSE6Tijq",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Built for Los Angeles Streetwear Brands",
+          "en": "Built for Los Angeles Streetwear Brands"
+        },
+        "content": {
+          "zh": "Heavyweight fabrics, authentic oversized fits, low MOQs, and fast delivery to California. From sampling to bulk production, we help LA brands launch faster and scale smarter.",
+          "en": "Heavyweight fabrics, authentic oversized fits, low MOQs, and fast delivery to California. From sampling to bulk production, we help LA brands launch faster and scale smarter."
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/39ce5a69-450gms heavyweight hoodies usa-6.jpg",
+        "imagePosition": "left",
+        "buttonLink": "https://kelloggfashion.com/inquiry",
+        "buttonText": {
+          "zh": "Start Your Custom Project",
+          "en": "Start Your Custom Project"
+        }
+      }
+    },
+    {
+      "id": "block_stiQI1jB",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Our Core Products",
+          "en": "Our Core Products"
+        },
+        "features": [],
+        "columns": 3,
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "(400–500 GSM) / (14oz - 17.5oz) Heavyweight Hoodies for U.S. Streetwear Brands",
+              "en": "(400–500 GSM) / (14oz - 17.5oz) Heavyweight Hoodies for U.S. Streetwear Brands"
+            },
+            "description": {
+              "zh": "Built for premium streetwear brands, our heavyweight hoodies are available in 500GSM, 580GSM, and 640GSM cotton fleece. Each hoodie is engineered with a structured oversized fit, double-layer hood, reinforced shoulder seams, and ribbing designed to retain elasticity after 50+ wash cycles. With fabric shrinkage controlled below 3% and colorfastness rated at Grade 4 or above, these hoodies deliver the weight, durability, and premium hand feel demanded by today's American and global streetwear markets.",
+              "en": "Built for premium streetwear brands, our heavyweight hoodies are available in 500GSM, 580GSM, and 640GSM cotton fleece. Each hoodie is engineered with a structured oversized fit, double-layer hood, reinforced shoulder seams, and ribbing designed to retain elasticity after 50+ wash cycles. With fabric shrinkage controlled below 3% and colorfastness rated at Grade 4 or above, these hoodies deliver the weight, durability, and premium hand feel demanded by today's American and global streetwear markets."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "(280–320GSM) / (9.8oz - 11.2oz) High-Quality Blank T-Shirts for U.S. Brands & Printing Businesses",
+              "en": "(280–320GSM) / (9.8oz - 11.2oz) High-Quality Blank T-Shirts for U.S. Brands & Printing Businesses"
+            },
+            "description": {
+              "zh": "Our oversized T-shirts are crafted from 280GSM to 320GSM 100% combed cotton, offering a substantial hand feel and exceptional drape. Designed with dropped shoulders, a relaxed boxy silhouette, and high-density rib collars, they maintain their shape even after repeated wear and washing. Ideal for screen printing, puff printing, DTG, and embroidery, these tees provide the perfect blank canvas for modern streetwear collections.",
+              "en": "Our oversized T-shirts are crafted from 280GSM to 320GSM 100% combed cotton, offering a substantial hand feel and exceptional drape. Designed with dropped shoulders, a relaxed boxy silhouette, and high-density rib collars, they maintain their shape even after repeated wear and washing. Ideal for screen printing, puff printing, DTG, and embroidery, these tees provide the perfect blank canvas for modern streetwear collections."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "",
+              "en": "Vintage Washed Sweatshirts & Heavyweight Sweatpants"
+            },
+            "description": {
+              "zh": "Designed for both comfort and street-ready aesthetics, our sweatpants and joggers are produced using heavyweight fleece ranging from 380GSM to 520GSM. Features include reinforced crotch construction, durable drawcord systems, elastic waistbands, and ribbed ankle cuffs engineered for long-term wear. Each pair undergoes rigorous quality testing to ensure minimal shrinkage, consistent sizing, and excellent recovery after extensive use.",
+              "en": "Designed for both comfort and street-ready aesthetics, our sweatpants and joggers are produced using heavyweight fleece ranging from 380GSM to 520GSM. Features include reinforced crotch construction, durable drawcord systems, elastic waistbands, and ribbed ankle cuffs engineered for long-term wear. Each pair undergoes rigorous quality testing to ensure minimal shrinkage, consistent sizing, and excellent recovery after extensive use."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Blank Streetwear Sets",
+              "en": "Blank Streetwear Sets"
+            },
+            "description": {
+              "zh": "Our blank streetwear collection provides brands with premium-quality essentials ready for customization. From hoodies and T-shirts to sweatpants and shorts, every garment is manufactured using high-grade cotton fabrics, precision-cut patterns, and strict quality standards. With low MOQs starting at 100 pieces, flexible private label services, and multiple finishing options, Kellogg Fashion helps brands develop scalable, high-margin streetwear collections with confidence.",
+              "en": "Our blank streetwear collection provides brands with premium-quality essentials ready for customization. From hoodies and T-shirts to sweatpants and shorts, every garment is manufactured using high-grade cotton fabrics, precision-cut patterns, and strict quality standards. With low MOQs starting at 100 pieces, flexible private label services, and multiple finishing options, Kellogg Fashion helps brands develop scalable, high-margin streetwear collections with confidence."
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "Built for the U.S. market — premium heavyweight, blank-ready, and fully customizable streetwear manufacturing.",
+          "en": "Built for the U.S. market — premium heavyweight, blank-ready, and fully customizable streetwear manufacturing."
+        }
+      }
+    },
+    {
+      "id": "block_fmfZ_qv7",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "High Expert - French Terry heavyweight hoodies ( 20.5oz-22.5oz / 580-640GSM )",
+          "en": "High Expert - French Terry heavyweight hoodies ( 20.5oz-22.5oz / 580-640GSM )"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/39ce5a69-450gms heavyweight hoodies usa-6.jpg",
+            "caption": {
+              "zh": "Black oversized hoodie with Shaterinburg Tower city skyline graphic print, heavyweight streetwear pullover sweatshirt",
+              "en": "Black oversized hoodie with Shaterinburg Tower city skyline graphic print, heavyweight streetwear pullover sweatshirt"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/498532a1-450gms heavyweight hoodies usa-7.jpg",
+            "caption": {
+              "zh": "Custom heavyweight french terry combed cotton hoodie with vintage portrait print, streetwear manufacturing supplier hoodie",
+              "en": "Custom heavyweight french terry combed cotton hoodie with vintage portrait print, streetwear manufacturing supplier hoodie"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/b542657c-450gms heavyweight hoodies usa-8.jpg",
+            "caption": {
+              "zh": "Premium heavyweight hoodie featuring a vintage portrait print design, crafted for urban streetwear brands and custom apparel production.",
+              "en": "Premium heavyweight hoodie featuring a vintage portrait print design, crafted for urban streetwear brands and custom apparel production."
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "This heavyweight oversized hoodie is designed for the US streetwear market, combining premium cotton fabric with bold city skyline graphics. Ideal for fashion brands, retailers, and private label hoodie collections.",
+          "en": "This heavyweight oversized hoodie is designed for the US streetwear market, combining premium cotton fabric with bold city skyline graphics. Ideal for fashion brands, retailers, and private label hoodie collections."
+        }
+      }
+    },
+    {
+      "id": "block_6NygK7No",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Heavyweight Blank Crewneck Sweatshirt – (15.8oz-17.5oz/450-500GSM)",
+          "en": "Heavyweight Blank Crewneck Sweatshirt – (15.8oz-17.5oz/450-500GSM)"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/6b20e40b-custom-blank-crewneck-sweatshirt-500gsm-cotton-manufacturer-3.jpg",
+            "caption": {
+              "zh": "Custom blank crewneck sweatshirt 500gsm, 100% cotton heavyweight pullover for streetwear brands",
+              "en": "Custom blank crewneck sweatshirt 500gsm, 100% cotton heavyweight pullover for streetwear brands"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/07c55c1a-custom-blank-crewneck-sweatshirt-500gsm-cotton-manufacturer-2.jpg",
+            "caption": {
+              "zh": "heavyweight crewneck sweatshirt, blank cotton pullover, premium streetwear basic",
+              "en": "heavyweight crewneck sweatshirt, blank cotton pullover, premium streetwear basic"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/0d62c54e-custom-blank-crewneck-sweatshirt-500gsm-cotton-manufacturer-1.jpg",
+            "caption": {
+              "zh": "Heavyweight blank sweatshirt, cotton crewneck pullover, custom OEM streetwear manufacturer China",
+              "en": "Heavyweight blank sweatshirt, cotton crewneck pullover, custom OEM streetwear manufacturer China"
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "Minimalist heavyweight crewneck sweatshirt designed for custom streetwear production, ideal for branding and private label.",
+          "en": "Minimalist heavyweight crewneck sweatshirt designed for custom streetwear production, ideal for branding and private label."
+        }
+      }
+    },
+    {
+      "id": "block_ATqmJgjd",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Heavyweight T-Shirt Manufacturer for USA | 240GSM 300GSM 380GSM Custom Cotton Tees",
+          "en": "Heavyweight T-Shirt Manufacturer for USA | 240GSM 300GSM 380GSM Custom Cotton Tees"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/900542ba-heavyweight-mens-tee-mockup-3.jpg",
+            "caption": {
+              "zh": "240GSM T-shirt lightweight heavyweight tee",
+              "en": "240GSM T-shirt lightweight heavyweight tee"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/c990c544-heavyweight-mens-tee-mockup-2.jpg",
+            "caption": {
+              "zh": "300GSM T-shirt streetwear standard",
+              "en": "300GSM T-shirt streetwear standard"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/13dfb3b0-heavyweight-mens-tee-mockup-1.jpg",
+            "caption": {
+              "zh": "380GSM T-shirt luxury heavy cotton",
+              "en": "380GSM T-shirt luxury heavy cotton"
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "Leading heavyweight t-shirt manufacturer in China. 240–380gsm thick cotton t-shirts, oversized fits, and custom streetwear production. Low MOQ, fast sampling, export to USA & Europe.",
+          "en": "Leading heavyweight t-shirt manufacturer in China. 240–380gsm thick cotton t-shirts, oversized fits, and custom streetwear production. Low MOQ, fast sampling, export to USA & Europe."
+        }
+      }
+    },
+    {
+      "id": "block_dCsx4MCx",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "High-Quality Craftsmanship for Wholesale Streetwear Manufacturing in USA Market",
+          "en": "High-Quality Craftsmanship for Wholesale Streetwear Manufacturing in USA Market"
+        },
+        "features": [],
+        "columns": 3,
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Premium Heavyweight Fabric Construction",
+              "en": "Premium Heavyweight Fabric Construction"
+            },
+            "description": {
+              "zh": "At Kellogg, we specialize in crafting heavyweight hoodies and sweatshirts with 350–450 GSM (12.3oz-15.8oz) combed cotton and cotton blends, ensuring a durable, warm, and soft touch. Our fabrics are carefully pre-shrunk and undergo high-density knitting, offering superior resilience and maintaining shape even after repeated washes. This results in products that meet the expectations of US streetwear retailers for long-lasting, high-quality apparel.",
+              "en": "At Kellogg, we specialize in crafting heavyweight hoodies and sweatshirts with 350–450 GSM (12.3oz-15.8oz) combed cotton and cotton blends, ensuring a durable, warm, and soft touch. Our fabrics are carefully pre-shrunk and undergo high-density knitting, offering superior resilience and maintaining shape even after repeated washes. This results in products that meet the expectations of US streetwear retailers for long-lasting, high-quality apparel."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Precision Sewing & Reinforced Stitching",
+              "en": "Precision Sewing & Reinforced Stitching"
+            },
+            "description": {
+              "zh": "Our garments are produced using advanced industrial sewing machines and strict multi-step quality control. Key stress points such as shoulders, sleeves, and pockets are reinforced with double or triple stitching, minimizing the risk of seam failure. This level of craftsmanship guarantees that bulk orders for US retailers can withstand rigorous daily wear and extended shelf life.",
+              "en": "Our garments are produced using advanced industrial sewing machines and strict multi-step quality control. Key stress points such as shoulders, sleeves, and pockets are reinforced with double or triple stitching, minimizing the risk of seam failure. This level of craftsmanship guarantees that bulk orders for US retailers can withstand rigorous daily wear and extended shelf life."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Customizable Garment Design & Detailing",
+              "en": "Customizable Garment Design & Detailing"
+            },
+            "description": {
+              "zh": "We excel in customizable design features, including embroidered logos, printed graphics, ribbed cuffs, and drawstring variations. Our team can handle orders with specific color codes, Pantone matching, and US sizing standards (S–3XL), making it easy for American brands to maintain brand consistency. These capabilities allow for versatile, trend-driven collections tailored to the US streetwear market.",
+              "en": "We excel in customizable design features, including embroidered logos, printed graphics, ribbed cuffs, and drawstring variations. Our team can handle orders with specific color codes, Pantone matching, and US sizing standards (S–3XL), making it easy for American brands to maintain brand consistency. These capabilities allow for versatile, trend-driven collections tailored to the US streetwear market."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Eco-Friendly & Safe Dyeing Processes",
+              "en": "Eco-Friendly & Safe Dyeing Processes"
+            },
+            "description": {
+              "zh": "All our fabrics are dyed with low-impact, AZO-free dyes that comply with US textile safety regulations (OEKO-TEX certified). Our finishing processes minimize chemical residues and reduce environmental impact while ensuring vibrant, long-lasting colors. This commitment positions Kellogg as a responsible supplier for environmentally-conscious US buyers.",
+              "en": "All our fabrics are dyed with low-impact, AZO-free dyes that comply with US textile safety regulations (OEKO-TEX certified). Our finishing processes minimize chemical residues and reduce environmental impact while ensuring vibrant, long-lasting colors. This commitment positions Kellogg as a responsible supplier for environmentally-conscious US buyers."
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "At Kellogg Fashion, we specialize in wholesale heavyweight hoodies, sweatshirts, joggers, and streetwear apparel manufacturing for US brands and retailers. Our production system is designed to meet the demands of the American fashion market, combining durability, consistency, and scalable bulk production for seasonal collections.",
+          "en": "At Kellogg Fashion, we specialize in wholesale heavyweight hoodies, sweatshirts, joggers, and streetwear apparel manufacturing for US brands and retailers. Our production system is designed to meet the demands of the American fashion market, combining durability, consistency, and scalable bulk production for seasonal collections."
+        }
+      }
+    },
+    {
+      "id": "block_W3vPH7FR",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Why American Brands Choose Kellogg Fashion?",
+          "en": "Why American Brands Choose Kellogg Fashion?"
+        },
+        "features": [],
+        "columns": 3,
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Mastery of Authentic Heavyweight Fabrics",
+              "en": "Mastery of Authentic Heavyweight Fabrics"
+            },
+            "description": {
+              "zh": "American streetwear culture places a premium on the \"hand-feel\" and structural integrity of a garment. Kellogg Fashion specializes in high-GSM (Grams per Square Meter) fabrics, often ranging from 400 GSM to over 500 GSM. Unlike standard suppliers, Kellogg’s textiles are engineered to be \"stiff\" and \"dense\" rather than just thick, providing the rugged, high-end aesthetic that US consumers associate with luxury streetwear brands.",
+              "en": "American streetwear culture places a premium on the \"hand-feel\" and structural integrity of a garment. Kellogg Fashion specializes in high-GSM (Grams per Square Meter) fabrics, often ranging from 400 GSM to over 500 GSM. Unlike standard suppliers, Kellogg’s textiles are engineered to be \"stiff\" and \"dense\" rather than just thick, providing the rugged, high-end aesthetic that US consumers associate with luxury streetwear brands."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Precision in American \"Boxy\" Silhouettes",
+              "en": "Precision in American \"Boxy\" Silhouettes"
+            },
+            "description": {
+              "zh": "The US market has moved away from slim or standard European cuts toward a very specific \"Boxy Fit.\" This includes dropped shoulders, cropped body lengths, and wide sleeves. Kellogg Fashion has developed a deep library of pre-vetted patterns that specifically cater to this aesthetic. By providing \"brand-ready\" silhouettes, they allow American labels to skip the long, expensive process of multiple sampling rounds to get the fit right.",
+              "en": "The US market has moved away from slim or standard European cuts toward a very specific \"Boxy Fit.\" This includes dropped shoulders, cropped body lengths, and wide sleeves. Kellogg Fashion has developed a deep library of pre-vetted patterns that specifically cater to this aesthetic. By providing \"brand-ready\" silhouettes, they allow American labels to skip the long, expensive process of multiple sampling rounds to get the fit right."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Agile Manufacturing for \"Drop\" Culture",
+              "en": "Agile Manufacturing for \"Drop\" Culture"
+            },
+            "description": {
+              "zh": "The modern American fashion business model relies heavily on the \"Drop\" system—releasing limited quantities frequently to maintain hype. Kellogg Fashion offers a flexible, low-MOQ (Minimum Order Quantity) framework that is highly attractive to both boutique labels and scaling brands. This agility allows American companies to test new colors and designs with minimal inventory risk, moving from a creative concept to a physical sample in as little as 7 to 10 days.",
+              "en": "The modern American fashion business model relies heavily on the \"Drop\" system—releasing limited quantities frequently to maintain hype. Kellogg Fashion offers a flexible, low-MOQ (Minimum Order Quantity) framework that is highly attractive to both boutique labels and scaling brands. This agility allows American companies to test new colors and designs with minimal inventory risk, moving from a creative concept to a physical sample in as little as 7 to 10 days."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Seamless End-to-End Export Expertise",
+              "en": "Seamless End-to-End Export Expertise"
+            },
+            "description": {
+              "zh": "International sourcing can be a logistical nightmare regarding customs, duties, and shipping times. Kellogg Fashion has established a robust export infrastructure specifically for the North American market. By offering transparent communication and professional logistics solutions—such as DDP (Delivered Duty Paid) shipping—they function as a \"plug-and-play\" backend for US brands, allowing founders to focus on marketing and community building while the production is handled with professional reliability.",
+              "en": "International sourcing can be a logistical nightmare regarding customs, duties, and shipping times. Kellogg Fashion has established a robust export infrastructure specifically for the North American market. By offering transparent communication and professional logistics solutions—such as DDP (Delivered Duty Paid) shipping—they function as a \"plug-and-play\" backend for US brands, allowing founders to focus on marketing and community building while the production is handled with professional reliability."
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "block_NmxQrpm2",
+      "type": "imageFull",
+      "isVisible": false,
+      "content": {
+        "image": "https://assets.kelloggfashion.com/uploads/61e49c27-47.jpg",
+        "height": "full",
+        "overlay": false,
+        "description": {
+          "zh": "Compare Kellogg With Other Suppliers",
+          "en": "Compare Kellogg With Other Suppliers"
+        },
+        "width": "full",
+        "alt": {
+          "zh": "Compare Kellogg With Other Suppliers",
+          "en": "Compare Kellogg With Other Suppliers"
+        }
+      }
+    },
+    {
+      "id": "block_XIeHy7Do",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "USA MARKET IMPACT - KELLOGG FASHION CASE STUDIES 2024",
+          "en": "USA MARKET IMPACT - KELLOGG FASHION CASE STUDIES 2024"
+        },
+        "content": {
+          "zh": "A fast-growing Los Angeles brand struggled with TikTok trends. By moving to Kellogg's flexible line, they achieved://\nSmall batches (50-100 units)to test trends. //\n10-day lightning replenishment cycle. //\nReal-time data sync with manufacturing.",
+          "en": "A fast-growing Los Angeles brand struggled with TikTok trends. By moving to Kellogg's flexible line, they achieved://\nSmall batches (50-100 units)to test trends. //\n10-day lightning replenishment cycle. //\nReal-time data sync with manufacturing."
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/45d136ac-heavyweight hoodies manufacturer-usa.png",
+        "imagePosition": "right",
+        "buttonText": {
+          "zh": "",
+          "en": "View More"
+        },
+        "buttonLink": "https://kelloggfashion.com/about"
+      }
+    },
+    {
+      "id": "block_2To4rGwH",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "OPERATIONAL KPI COMPARISON",
+          "en": "OPERATIONAL KPI COMPARISON"
+        },
+        "content": {
+          "zh": "\"Kellogg Fashion is not just a supplier;they are our technical backbone.Their speed allowed us to scale from $1M to $10M in 18 months without inventory debt.\"//\n                          \n—CEO,Venture-Backed Los Angeles Fashion Brand",
+          "en": "\"Kellogg Fashion is not just a supplier;they are our technical backbone.Their speed allowed us to scale from $1M to $10M in 18 months without inventory debt.\"//\n                          \n—CEO,Venture-Backed Los Angeles Fashion Brand"
+        },
+        "image": "",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "",
+          "en": "View More"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry"
+      }
+    },
+    {
+      "id": "block_XlBwu631",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Client: Los Angeles Streetwear Startup",
+          "en": "Client: Los Angeles Streetwear Startup"
+        },
+        "content": {
+          "zh": "Background: A startup brand based in Los Angeles focusing on oversized streetwear. The client needed a reliable manufacturer for their first hoodie drop but faced issues with high local production costs and unstable quality.//\n\nOrder Details: Product: 450 GSM Heavyweight Hoodies. Quantity: 300 pcs. Customization: Screen printing + woven labels. MOQ: 100 pcs per color. Production Time: 18 days//\n\nResults:First drop sold out in 21 days. Achieved 62% gross profit margin. Reordered 500 pcs within 30 days. Customer return rate: 28% repeat buyers. //\n\nKey Improvements We Delivered:Reduced production cost by 35% vs US local suppliers. Stabilized sizing consistency (shrinkage controlled under 3%). Delivered bulk order within promised timeline",
+          "en": "Background: A startup brand based in Los Angeles focusing on oversized streetwear. The client needed a reliable manufacturer for their first hoodie drop but faced issues with high local production costs and unstable quality.//\n\nOrder Details: Product: 450 GSM Heavyweight Hoodies. Quantity: 300 pcs. Customization: Screen printing + woven labels. MOQ: 100 pcs per color. Production Time: 18 days//\n\nResults:First drop sold out in 21 days. Achieved 62% gross profit margin. Reordered 500 pcs within 30 days. Customer return rate: 28% repeat buyers. //\n\nKey Improvements We Delivered:Reduced production cost by 35% vs US local suppliers. Stabilized sizing consistency (shrinkage controlled under 3%). Delivered bulk order within promised timeline"
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/5e394520-450gms heavyweight hoodies usa-3.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "Start Your US Collection Today",
+          "en": "Start Your US Collection Today"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry"
+      }
+    },
+    {
+      "id": "block_oYxhGxne",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Client: New York Streetwear Brand",
+          "en": "Client: New York Streetwear Brand"
+        },
+        "content": {
+          "zh": "Background:An established streetwear brand in New York previously working with multiple suppliers in Asia but struggled with inconsistent fabric quality and delayed deliveries.//\n\nOrder Details:Product: 420 GSM French Terry Hoodies. Quantity: 800 pcs. Customization: Embroidery logo + custom dye. Production Time: 20 days//\n\nResults: Reduced defect rate from 12% → 3.5%. Improved on-time delivery rate to 95%. Increased repeat order frequency from every 3 months → monthly. Annual order volume increased by 2.3x. //\n\nKey Improvements We Delivered: Standardized fabric sourcing (same GSM & dye lot control). Established stable production timeline. Improved stitching durability (double-needle reinforcement)",
+          "en": "Background:An established streetwear brand in New York previously working with multiple suppliers in Asia but struggled with inconsistent fabric quality and delayed deliveries.//\n\nOrder Details:Product: 420 GSM French Terry Hoodies. Quantity: 800 pcs. Customization: Embroidery logo + custom dye. Production Time: 20 days//\n\nResults: Reduced defect rate from 12% → 3.5%. Improved on-time delivery rate to 95%. Increased repeat order frequency from every 3 months → monthly. Annual order volume increased by 2.3x. //\n\nKey Improvements We Delivered: Standardized fabric sourcing (same GSM & dye lot control). Established stable production timeline. Improved stitching durability (double-needle reinforcement)"
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/61902573-450gms heavyweight hoodies usa-4.jpg",
+        "imagePosition": "left",
+        "buttonLink": "https://kelloggfashion.com/inquiry",
+        "buttonText": {
+          "zh": "Start Your US Collection Today",
+          "en": "Start Your US Collection Today"
+        }
+      }
+    },
+    {
+      "id": "block_hq-7FrMt",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Client: Miami-based E-commerce Brand",
+          "en": "Client: Miami-based E-commerce Brand"
+        },
+        "content": {
+          "zh": "Background:A fast-growing Shopify brand focused on casual streetwear. The client wanted to test new hoodie designs with low risk before scaling.//\n\nOrder Details:Product: 400 GSM Oversized Hoodies. Initial Order: 150 pcs. Customization: Puff print logo + private label. Sampling Time: 7 days. Bulk Production: 15 days. //\n\nResults: Test batch sold out in 14 days. Scaled to 1,200 pcs within 2 months. Achieved 4.8/5 customer rating. Reduced inventory risk by 40% through small-batch testing. //\n\nKey Improvements We Delivered: Supported low MOQ for product validation. Fast sampling turnaround (7 days). Flexible scaling for bulk production",
+          "en": "Background:A fast-growing Shopify brand focused on casual streetwear. The client wanted to test new hoodie designs with low risk before scaling.//\n\nOrder Details:Product: 400 GSM Oversized Hoodies. Initial Order: 150 pcs. Customization: Puff print logo + private label. Sampling Time: 7 days. Bulk Production: 15 days. //\n\nResults: Test batch sold out in 14 days. Scaled to 1,200 pcs within 2 months. Achieved 4.8/5 customer rating. Reduced inventory risk by 40% through small-batch testing. //\n\nKey Improvements We Delivered: Supported low MOQ for product validation. Fast sampling turnaround (7 days). Flexible scaling for bulk production"
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/3ce39208-450gms heavyweight hoodies usa-5.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "Start Your US Collection Today",
+          "en": "Start Your US Collection Today"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry"
+      }
+    },
+    {
+      "id": "block_uTtbEYXU",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Fast Shipping to USA",
+          "en": "Fast Shipping to USA"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/95839d3b-2.png",
+            "caption": {
+              "zh": "Air Freight: 5-8 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included",
+              "en": "Air Freight: 5-8 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/a4eee364-3.png",
+            "caption": {
+              "zh": "Air Freight: 5-8 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included",
+              "en": "Air Freight: 5-8 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/c20ab7f2-5.png",
+            "caption": {
+              "zh": "Sea Freight: 18-25 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included",
+              "en": "Sea Freight: 18-25 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included"
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "Air Freight: 5-8 Days. Sea Freight: 18-25 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included",
+          "en": "Air Freight: 5-8 Days. Sea Freight: 18-25 Days to Los Angeles. Door-to-Door Delivery. Customs Clearance Included"
+        }
+      }
+    },
+    {
+      "id": "block_xqLWZbr6",
+      "type": "videoSection",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Global Supply Chain Integration: Why American Brands Choose Kellogg Fashion",
+          "en": "Global Supply Chain Integration: Why American Brands Choose Kellogg Fashion"
+        },
+        "videoUrl": "https://www.youtube.com/watch?v=hf-5lwySNsY",
+        "values": {
+          "videoUrl": "",
+          "autoPlay": false,
+          "loop": false,
+          "posterImage": "https://assets.kelloggfashion.com/uploads/30b37b9e-580gsm heavyweight hoodie manufacturer.jpg"
+        },
+        "subtitle": {
+          "zh": "GOTS Certified Organic Cotton Sweatshirt Factory",
+          "en": "GOTS Certified Organic Cotton Sweatshirt Factory"
+        }
+      }
+    },
+    {
+      "id": "block_-Z1D1q0D",
+      "type": "faq",
+      "isVisible": true,
+      "content": {
+        "maxItems": 5,
+        "showMoreLink": true,
+        "subtitle": {
+          "zh": "",
+          "en": "FAQ - Find answers to common questions here"
+        },
+        "items": [
+          {
+            "id": 1,
+            "question": {
+              "zh": "What Is Your Minimum Order Quantity For USA Orders?",
+              "en": "Q: What Is Your Minimum Order Quantity For USA Orders?"
+            },
+            "answer": {
+              "zh": "Our standard MOQ starts at 100 pieces per color per style. This low minimum allows emerging American streetwear brands to test new collections without carrying excessive inventory. For mixed-size runs, we offer flexible size breakdowns based on your sales needs.",
+              "en": "A: Our standard MOQ starts at 100 pieces per color per style. This low minimum allows emerging American streetwear brands to test new collections without carrying excessive inventory. For mixed-size runs, we offer flexible size breakdowns based on your sales needs."
+            }
+          },
+          {
+            "id": 2,
+            "question": {
+              "zh": "How Long Does Shipping To Los Angeles Take?",
+              "en": "Q: How Long Does Shipping To Los Angeles Take?"
+            },
+            "answer": {
+              "zh": "For air freight, delivery to Los Angeles typically takes 7–12 business days after production is completed. Sea freight usually requires 18–28 business days, depending on port schedules and customs clearance. We also offer express courier services for urgent sample shipments.",
+              "en": "A: For air freight, delivery to Los Angeles typically takes 7–12 business days after production is completed. Sea freight usually requires 18–28 business days, depending on port schedules and customs clearance. We also offer express courier services for urgent sample shipments."
+            }
+          },
+          {
+            "id": 3,
+            "question": {
+              "zh": "Can You Ship DDP To Amazon FBA?",
+              "en": "Q: Can You Ship DDP To Amazon FBA?"
+            },
+            "answer": {
+              "zh": "Yes, we provide full DDP (Delivered Duty Paid) shipping services to Amazon FBA warehouses, third-party logistics centers, and private warehouses throughout the United States. Our team handles customs clearance, import duties, and final delivery, allowing you to focus entirely on sales and inventory management.",
+              "en": "A: Yes, we provide full DDP (Delivered Duty Paid) shipping services to Amazon FBA warehouses, third-party logistics centers, and private warehouses throughout the United States. Our team handles customs clearance, import duties, and final delivery, allowing you to focus entirely on sales and inventory management."
+            }
+          },
+          {
+            "id": 4,
+            "question": {
+              "zh": "Do You Offer Oversized American Fit?",
+              "en": "Q: Do You Offer Oversized American Fit?"
+            },
+            "answer": {
+              "zh": "Absolutely. Our patterns are specifically developed for the American streetwear market, including oversized silhouettes, drop shoulders, boxy cuts, and extended sleeve lengths. We can also replicate your existing fit samples or develop custom measurements based on your brand specifications.",
+              "en": "A: Absolutely. Our patterns are specifically developed for the American streetwear market, including oversized silhouettes, drop shoulders, boxy cuts, and extended sleeve lengths. We can also replicate your existing fit samples or develop custom measurements based on your brand specifications."
+            }
+          },
+          {
+            "id": 5,
+            "question": {
+              "zh": "Can I Order A Sample Before Bulk Production?",
+              "en": "Q: Can I Order A Sample Before Bulk Production?"
+            },
+            "answer": {
+              "zh": "Yes, sample orders are highly recommended before mass production. Standard sample lead time is 7–10 business days. This allows you to review fabric weight, fit, stitching, printing, and embroidery quality before approving full production.",
+              "en": "A: Yes, sample orders are highly recommended before mass production. Standard sample lead time is 7–10 business days. This allows you to review fabric weight, fit, stitching, printing, and embroidery quality before approving full production."
+            }
+          },
+          {
+            "id": 6,
+            "question": {
+              "zh": "What Fabric Weights Do You Offer For Heavyweight Hoodies?",
+              "en": "Q: What Fabric Weights Do You Offer For Heavyweight Hoodies?"
+            },
+            "answer": {
+              "zh": "We specialize in heavyweight fleece fabrics ranging from 380GSM to 640GSM. Our most popular options for American brands are 420GSM, 450GSM, and 500GSM, which deliver the premium structure and durability expected in the U.S. streetwear market.",
+              "en": "A: We specialize in heavyweight fleece fabrics ranging from 380GSM to 640GSM. Our most popular options for American brands are 420GSM, 450GSM, and 500GSM, which deliver the premium structure and durability expected in the U.S. streetwear market."
+            }
+          },
+          {
+            "id": 7,
+            "question": {
+              "zh": "What Is Your Typical Production Lead Time?",
+              "en": "Q: What Is Your Typical Production Lead Time?"
+            },
+            "answer": {
+              "zh": "Bulk production usually takes 20–30 days after sample approval and deposit confirmation. Larger orders or highly customized projects may require slightly longer lead times. We always provide a detailed production schedule before order confirmation.",
+              "en": "A: Bulk production usually takes 20–30 days after sample approval and deposit confirmation. Larger orders or highly customized projects may require slightly longer lead times. We always provide a detailed production schedule before order confirmation."
+            }
+          },
+          {
+            "id": 8,
+            "question": {
+              "zh": "Can You Match Pantone Colors?",
+              "en": "Q: Can You Match Pantone Colors?"
+            },
+            "answer": {
+              "zh": "Yes, we can match your specified Pantone colors for both fabric dyeing and printing. Lab dips are provided for approval before bulk production to ensure color consistency across your entire order.",
+              "en": "A: Yes, we can match your specified Pantone colors for both fabric dyeing and printing. Lab dips are provided for approval before bulk production to ensure color consistency across your entire order."
+            }
+          },
+          {
+            "id": 9,
+            "question": {
+              "zh": "What Customization Options Do You Offer?",
+              "en": "Q: What Customization Options Do You Offer?"
+            },
+            "answer": {
+              "zh": "We provide complete OEM and ODM services, including:\n\n- Puff Printing\n- Screen Printing\n- DTG Printing\n- Embroidery\n- Appliqué\n- Woven Labels\n- Hang Tags\n- Custom Packaging",
+              "en": "A: We provide complete OEM and ODM services, including:\n\n- Puff Printing \n- Screen Printing \n- DTG Printing \n- Embroidery \n- Appliqué \n- Woven Labels \n- Hang Tags \n- Custom Packaging "
+            }
+          },
+          {
+            "id": 10,
+            "question": {
+              "zh": "Which U.S. Cities Do You Ship To Most Frequently?",
+              "en": "Q: Which U.S. Cities Do You Ship To Most Frequently?"
+            },
+            "answer": {
+              "zh": "We regularly ship to major U.S. fashion and distribution hubs, including Los Angeles, New York, Miami, Houston, Chicago, and Atlanta. Our logistics partners ensure reliable delivery across all 50 states.",
+              "en": "A: We regularly ship to major U.S. fashion and distribution hubs, including Los Angeles, New York, Miami, Houston, Chicago, and Atlanta. Our logistics partners ensure reliable delivery across all 50 states."
+            }
+          },
+          {
+            "id": 11,
+            "question": {
+              "zh": "How Quickly Can I Receive A Quotation?",
+              "en": "Q: How Quickly Can I Receive A Quotation?"
+            },
+            "answer": {
+              "zh": "We typically provide detailed quotations within 12 hours of receiving your design files, tech pack, or product requirements. For urgent projects, same-day pricing is often available.",
+              "en": "A: We typically provide detailed quotations within 12 hours of receiving your design files, tech pack, or product requirements. For urgent projects, same-day pricing is often available."
+            }
+          },
+          {
+            "id": 12,
+            "question": {
+              "zh": "Do You Sign NDAs And Protect Designs?",
+              "en": "Q: Do You Sign NDAs And Protect Designs?"
+            },
+            "answer": {
+              "zh": "Yes, we fully respect intellectual property. Non-disclosure agreements are available upon request, and all customer designs, patterns, and branding remain strictly confidential.",
+              "en": "A: Yes, we fully respect intellectual property. Non-disclosure agreements are available upon request, and all customer designs, patterns, and branding remain strictly confidential."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
