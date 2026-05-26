@@ -2,6 +2,7 @@
 import { Env, CustomPage, CompanyInfo, HeaderContent, FooterContent } from '../types';
 import { jsonResponse, errorResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
+import { markChangesPending } from './system';
 
 /**
  * 默认配置 (Bootstrap Data)
@@ -50,6 +51,7 @@ export async function setConfig(
   if (!key) return errorResponse('缺少配置 key', env, 400);
 
   await env.KELLOGG_FRONTEND_CONFIG.put(key, JSON.stringify(value));
+  await markChangesPending(env);
   return jsonResponse({ message: '配置保存成功', key }, env);
 }
 
@@ -67,6 +69,7 @@ export async function deleteConfig(
   if (!key) return errorResponse('缺少配置 key', env, 400);
 
   await env.KELLOGG_FRONTEND_CONFIG.delete(key);
+  await markChangesPending(env);
   return jsonResponse({ message: '配置删除成功', key }, env);
 }
 
@@ -101,7 +104,18 @@ export async function getPageById(request: Request, env: Env, id: string): Promi
   // 优先尝试获取分片详情
   let pageData = await env.KELLOGG_FRONTEND_CONFIG.get(`page:${id}`, 'json');
   
-  // 兼容逻辑：如果没有找到分片详情，退回到从旧版 pages 数组中查找
+  // 兼容逻辑：如果分片详情不存在，尝试从 pages_index 查找 (处理 fixed-layout 页面或未完全拆分的缓存数据)
+  if (!pageData) {
+    const pagesIndex = await env.KELLOGG_FRONTEND_CONFIG.get('pages_index', 'json') as any[] | null;
+    if (pagesIndex) {
+      const targetPage = pagesIndex.find((p: any) => p.id === id);
+      if (targetPage) {
+        pageData = targetPage;
+      }
+    }
+  }
+  
+  // 兼容逻辑：如果仍没有找到，退回到从旧版 pages 数组中查找
   if (!pageData) {
     const pages = await env.KELLOGG_FRONTEND_CONFIG.get('pages', 'json') as CustomPage[] | null;
     const rawPages = pages || [];
@@ -122,6 +136,7 @@ export async function updatePages(request: Request, env: Env): Promise<Response>
 
   const pages = await request.json();
   await env.KELLOGG_FRONTEND_CONFIG.put('pages', JSON.stringify(pages));
+  await markChangesPending(env);
   return jsonResponse({ message: '页面配置更新成功' }, env);
 }
 
@@ -140,6 +155,7 @@ export async function updateSiteSettings(request: Request, env: Env): Promise<Re
 
   const input = await request.json();
   await env.KELLOGG_FRONTEND_CONFIG.put('site_settings', JSON.stringify(input));
+  await markChangesPending(env);
   return jsonResponse({ message: '站点设置更新成功' }, env);
 }
 

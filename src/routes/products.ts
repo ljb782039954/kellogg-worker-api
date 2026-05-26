@@ -2,6 +2,7 @@ import { Env, ProductRow, ProductImageRow, ProductSizeRow, ProductColorRow, Prod
 import { jsonResponse, errorResponse, paginatedResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
 import { transformProduct } from '../utils/transform';
+import { markChangesPending } from './system';
 
 export async function getProducts(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
@@ -166,6 +167,7 @@ export async function createProduct(request: Request, env: Env): Promise<Respons
     }
   }
 
+  await markChangesPending(env);
   return jsonResponse({ id: productId, message: '创建成功' }, env, 201);
 }
 
@@ -267,6 +269,7 @@ export async function updateProduct(request: Request, env: Env, id: string): Pro
     }
   }
 
+  await markChangesPending(env);
   return jsonResponse({ message: '更新成功' }, env);
 }
 
@@ -275,5 +278,6 @@ export async function deleteProduct(request: Request, env: Env, id: string): Pro
   if (authError) return authError;
 
   await env.DB.prepare('DELETE FROM products WHERE id = ?').bind(id).run();
+  await markChangesPending(env);
   return jsonResponse({ message: '删除成功' }, env);
 }

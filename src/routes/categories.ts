@@ -3,6 +3,7 @@ import { Env, CategoryRow } from '../types';
 import { jsonResponse, errorResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
 import { transformCategory } from '../utils/transform';
+import { markChangesPending } from './system';
 
 // 获取所有分类
 export async function getCategories(
@@ -66,6 +67,7 @@ export async function createCategory(
     input.sort_order || 0
   ).run();
 
+  await markChangesPending(env);
   return jsonResponse({ id: input.id, message: '分类创建成功' }, env, 201);
 }
 
@@ -115,6 +117,7 @@ export async function updateCategory(
     ).bind(...params).run();
   }
 
+  await markChangesPending(env);
   return jsonResponse({ message: '分类更新成功' }, env);
 }
 
@@ -139,5 +142,6 @@ export async function deleteCategory(
     return errorResponse('分类不存在', env, 404);
   }
 
+  await markChangesPending(env);
   return jsonResponse({ message: '分类删除成功' }, env);
 }

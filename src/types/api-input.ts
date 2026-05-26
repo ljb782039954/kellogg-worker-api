@@ -7,6 +7,7 @@ export interface Env {
   CORS_ORIGIN: string;
   ADMIN_TOKEN?: string;
   EXCHANGE_RATE_API_KEY?: string;
+  DEPLOY_HOOK_URL?: string;
 }
 
 
@@ -147,3 +148,114 @@ export interface CreateInquiryInput {
   quantity?: string;
   message?: string;
 }
+
+// ============================================
+// Blog types
+// ============================================
+
+export interface BlogRow {
+  id: number;
+  slug: string;
+  title_zh: string;
+  title_en: string;
+  summary_zh: string | null;
+  summary_en: string | null;
+  content_zh: string;
+  content_en: string;
+  cover_image: string | null;
+  category: string | null;
+  tags: string;            // JSON string array e.g. '["Cotton","OEM"]'
+  author: string;
+  status: string;          // 'draft' | 'published' | 'archived'
+  seo_title_zh: string | null;
+  seo_title_en: string | null;
+  seo_desc_zh: string | null;
+  seo_desc_en: string | null;
+  publish_date: string | null;
+  view_count: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface CreateBlogInput {
+  slug: string;
+  title_zh: string;
+  title_en: string;
+  summary_zh?: string;
+  summary_en?: string;
+  content_zh?: string;
+  content_en?: string;
+  cover_image?: string;
+  category?: string;
+  tags?: string[];
+  author?: string;
+  status?: 'draft' | 'published' | 'archived';
+  seo_title_zh?: string;
+  seo_title_en?: string;
+  seo_desc_zh?: string;
+  seo_desc_en?: string;
+  publish_date?: string;
+}
+
+export interface UpdateBlogInput extends Partial<CreateBlogInput> {}
+
+// ============================================
+// Blog Category Types
+// ============================================
+
+export interface BlogCategoryRow {
+  id: number;
+  name_zh: string;
+  name_en: string;
+  slug: string;
+  sort_order: number;
+  created_at: string;
+  article_count?: number;
+}
+
+export interface CreateBlogCategoryInput {
+  name_zh: string;
+  name_en: string;
+  slug?: string;
+  sort_order?: number;
+}
+
+export interface UpdateBlogCategoryInput {
+  name_zh?: string;
+  name_en?: string;
+  slug?: string;
+  sort_order?: number;
+}
+
+// ============================================
+// Customer Review Types
+// ============================================
+
+export interface CustomerReviewRow {
+  id: number;
+  client_name: string;
+  country: string | null;
+  rating: number;
+  media_type: 'video' | 'image';
+  media_url: string;
+  review_text_zh: string;
+  review_text_en: string;
+  sort_order: number;
+  status: 'published' | 'draft';
+  created_at: string;
+  updated_at: string;
+}
+
+export interface CreateReviewInput {
+  client_name: string;
+  country?: string;
+  rating?: number;
+  media_type: 'video' | 'image';
+  media_url: string;
+  review_text_zh: string;
+  review_text_en: string;
+  sort_order?: number;
+  status?: 'published' | 'draft';
+}
+
+

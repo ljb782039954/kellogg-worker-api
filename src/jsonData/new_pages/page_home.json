@@ -1,5 +1,27 @@
 {
   "id": "home",
+  "path": "/",
+  "title": {
+    "zh": "首页",
+    "en": "Home"
+  },
+  "isFixed": true,
+  "lastModified": "2026-03-24T08:41:09.911Z",
+  "seo": {
+    "title": {
+      "zh": "Heavyweight Hoodie Manufacturer in China | Custom Streetwear Factory | 500-640 GSM Heavyweight Hoodie Manufacturer China | Kellogg Fashion high-quality hoodies",
+      "en": "Heavyweight Hoodie Manufacturer in China | Custom Streetwear Factory | 500-640 GSM Heavyweight Hoodie Manufacturer China | Kellogg Fashion high-quality hoodies"
+    },
+    "description": {
+      "zh": "Kellogg Fashion is a professional clothing manufacturer located in Guangdong China, offering custom streetwear production including heavyweight hoodies, oversized T-shirts, and full OEM/ODM services for startup and established brands.",
+      "en": "Kellogg Fashion is a professional clothing manufacturer located in Guangdong China, offering custom streetwear production including heavyweight hoodies, oversized T-shirts, and full OEM/ODM services for startup and established brands."
+    },
+    "targetCountry": "United States,Canada,United Kingdom,Australia",
+    "keywords": {
+      "zh": "500gsm hoodie manufacturer,heavyweight hoodie supplier,oversized hoodie factory,private label streetwear supplier,best hoodie manufacturer for startups,China streetwear factory for DTC brands,custom streetwear supplier,bulk hoodie production China,heavyweight hoodie factory Guangdong",
+      "en": "500gsm hoodie manufacturer,heavyweight hoodie supplier,oversized hoodie factory,private label streetwear supplier,best hoodie manufacturer for startups,China streetwear factory for DTC brands,custom streetwear supplier,bulk hoodie production China,heavyweight hoodie factory Guangdong"
+    }
+  },
   "blocks": [
     {
       "id": "block_w4kWgxHJ",
@@ -11,14 +33,14 @@
         "items": [
           {
             "id": 1,
-            "image": "https://assets.kelloggfashion.com/uploads/78ee9138-41.jpg",
+            "image": "https://assets.kelloggfashion.com/uploads/9_07sSKDZUBkui4BFJ.png",
             "title": {
-              "zh": "",
-              "en": "Fleece Hoodie Manufacturer"
+              "zh": "From Concept to Premium Garment Production",
+              "en": "From Concept to Premium Garment Production"
             },
             "subtitle": {
-              "zh": "",
-              "en": "ISO garment manufacturer China,private label oversized hoodie supplier low MOQ"
+              "zh": "We manufacture heavyweight streetwear for emerging and established fashion brands worldwide.",
+              "en": "We manufacture heavyweight streetwear for emerging and established fashion brands worldwide."
             },
             "cta": {
               "zh": "探索系列",
@@ -30,20 +52,21 @@
                 "zh": "探索系列",
                 "en": "Explore Collection"
               },
-              "href": "/products",
-              "linkType": "internal"
+              "href": "/inquiry",
+              "linkType": "internal",
+              "pageDeleted": false
             }
           },
           {
             "id": 2,
-            "image": "https://assets.kelloggfashion.com/uploads/d666be2f-10.png",
+            "image": "https://assets.kelloggfashion.com/uploads/heayweight_hoodis_manufacturer_L7hqjWlfmANHEgUB.jpg",
             "title": {
-              "zh": "",
-              "en": "100% cotton fleece Crewneck Sweatshirt"
+              "zh": "Built for Premium Streetwear Production",
+              "en": "Built for Premium Streetwear Production"
             },
             "subtitle": {
-              "zh": "",
-              "en": "Enzyme + acid wash process applied for a washed-out surface effect"
+              "zh": "From sampling to bulk production, our factory supports global streetwear brands with stable quality and fast lead times.",
+              "en": "From sampling to bulk production, our factory supports global streetwear brands with stable quality and fast lead times."
             },
             "cta": {
               "zh": "立即选购",
@@ -55,83 +78,35 @@
                 "zh": "立即选购",
                 "en": "Shop Now"
               },
-              "href": "/products",
-              "linkType": "internal"
+              "href": "/inquiry",
+              "linkType": "internal",
+              "pageDeleted": false
             }
           },
           {
             "id": 3,
-            "image": "https://assets.kelloggfashion.com/uploads/2eac5c69-11.jpg",
+            "image": "https://assets.kelloggfashion.com/uploads/heayweight_hoodis_manufacturer_-2_nn83MWinv0EWNK8q.jpg",
             "title": {
-              "zh": "",
-              "en": "380-420g Acid-Wash Cotton Crewneck Sweatshirt"
+              "zh": "Premium Details Make the Difference",
+              "en": "Premium Details Make the Difference"
             },
             "subtitle": {
-              "zh": "副标题",
-              "en": "Oversized silhouette with dropped shoulders,Irregular wash pattern ensures each piece has a unique surface distribution"
+              "zh": "Heavyweight fabrics, custom washes, embroidery, and precision finishing designed for modern streetwear brands.",
+              "en": "Heavyweight fabrics, custom washes, embroidery, and precision finishing designed for modern streetwear brands."
             },
             "cta": {
-              "zh": "了解更多",
-              "en": "Learn More"
+              "zh": "立即行动",
+              "en": "Take Action"
             },
             "link": {
-              "id": "bfsmhf21h",
+              "id": "f9lvytrjh",
               "name": {
                 "zh": "立即行动",
                 "en": "Take Action"
               },
               "linkType": "internal",
-              "href": ""
-            }
-          },
-          {
-            "id": 4,
-            "image": "https://assets.kelloggfashion.com/uploads/88c5ed40-12.jpg",
-            "title": {
-              "zh": "",
-              "en": "Cropped Hoodie & Shorts Set (2-Piece Loungewear)"
-            },
-            "subtitle": {
-              "zh": "",
-              "en": "65% cotton / 35% polyester fleece Brushed inner surface for insulation (thermal retention increase: approx. 15–18% vs. single jersey)"
-            },
-            "cta": {
-              "zh": "了解更多",
-              "en": "Learn More"
-            },
-            "link": {
-              "id": "xu5pe1pyu",
-              "name": {
-                "zh": "立即行动",
-                "en": "Take Action"
-              },
-              "linkType": "internal",
-              "href": ""
-            }
-          },
-          {
-            "id": 5,
-            "image": "https://assets.kelloggfashion.com/uploads/5fb25129-38.jpg",
-            "title": {
-              "zh": "Heavyweight Hoodie Manufacturing",
-              "en": "Heavyweight Hoodie Manufacturing"
-            },
-            "subtitle": {
-              "zh": "Kellogg Fashion is well-positioned to win in this market—especially in heavyweight streetwear, where performance and consistency matter most.",
-              "en": "Kellogg Fashion is well-positioned to win in this market—especially in heavyweight streetwear, where performance and consistency matter most."
-            },
-            "cta": {
-              "zh": "了解更多",
-              "en": "Learn More"
-            },
-            "link": {
-              "id": "lu5kl7cgi",
-              "name": {
-                "zh": "立即行动",
-                "en": "Take Action"
-              },
-              "linkType": "internal",
-              "href": ""
+              "href": "/inquiry",
+              "pageDeleted": false
             }
           }
         ]
@@ -155,15 +130,6 @@
       }
     },
     {
-      "id": "block_JHgvK2rQ",
-      "type": "categories",
-      "isVisible": true,
-      "content": {
-        "showAll": true,
-        "maxItems": 8
-      }
-    },
-    {
       "id": "block_2jSHn838",
       "type": "imageText",
       "isVisible": true,
@@ -176,36 +142,13 @@
           "zh": "Product Type:Hoodie / Sweatshirt / Streetwear //\nMaterial:French Terry,Fleece,Cotton GSM grading system,Shrink control fabrics //\nGSM Range:400–600gsm //\nMOQ:50–100 pcs //\nLead Time:15–25 days //\nProduction Type:OEM / ODM //\nWe have produced for:US streetwear startup brands ,Australian fashion labels ,UK Shopify brands //\nOur advantages:30+ US streetwear brands served,Monthly production: 50,00+ hoodies,Export to 10+ countries",
           "en": "Product Type:Hoodie / Sweatshirt / Streetwear //\nMaterial:French Terry,Fleece,Cotton GSM grading system,Shrink control fabrics //\nGSM Range:400–600gsm //\nMOQ:50–100 pcs //\nLead Time:15–25 days //\nProduction Type:OEM / ODM //\nWe have produced for:US streetwear startup brands ,Australian fashion labels ,UK Shopify brands //\nOur advantages:30+ US streetwear brands served,Monthly production: 50,00+ hoodies,Export to 10+ countries"
         },
-        "image": "https://assets.kelloggfashion.com/uploads/84babd19-350gsm heavyweight hoodie manufacturer Australia -1.jpg",
-        "imagePosition": "left",
+        "image": "https://assets.kelloggfashion.com/uploads/158da393-350gsm heavyweight hoodie manufacturer Australia -3.jpg",
+        "imagePosition": "right",
         "buttonText": {
           "zh": "Get Free Quote in 24 Hourse",
           "en": "Get Free Quote in 24 Hourse"
         },
-        "buttonLink": "https://kelloggfashion.com/inquiry"
-      }
-    },
-    {
-      "id": "block_RoappaXk",
-      "type": "imageBanner",
-      "isVisible": true,
-      "content": {
-        "image": "https://assets.kelloggfashion.com/uploads/4110de8f-34.jpg",
-        "height": "medium",
-        "overlay": false,
-        "title": {
-          "zh": "Heavyweight Hoodies Collection",
-          "en": "Heavyweight Hoodies Collection"
-        },
-        "subtitle": {
-          "zh": "",
-          "en": "50,000+ monthly production capacity"
-        },
-        "ctaText": {
-          "zh": "View More",
-          "en": ""
-        },
-        "linkUrl": "https://kelloggfashion.com/products"
+        "buttonLink": "https://wa.me/message/VPTYGENPVZYCL1"
       }
     },
     {
@@ -304,21 +247,21 @@
         },
         "items": [
           {
-            "src": "https://assets.kelloggfashion.com/uploads/498532a1-450gms heavyweight hoodies usa-7.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/84babd19-350gsm heavyweight hoodie manufacturer Australia -1.jpg",
             "caption": {
               "zh": "Heavyweight hoodie 500-600gsm French Terry, cotton streetwear hoodie with graphic portrait print, custom OEM hoodie manufacturer China",
               "en": "Heavyweight hoodie 500-600gsm French Terry, cotton streetwear hoodie with graphic portrait print, custom OEM hoodie manufacturer China"
             }
           },
           {
-            "src": "https://assets.kelloggfashion.com/uploads/39ce5a69-450gms heavyweight hoodies usa-6.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/97521a9e-350gsm heavyweight hoodie manufacturer Australia -2.jpg",
             "caption": {
               "zh": "Custom heavyweight French Terry cotton hoodie with vintage portrait print, streetwear manufacturing supplier hoodie",
               "en": "Custom heavyweight French Terry cotton hoodie with vintage portrait print, streetwear manufacturing supplier hoodie"
             }
           },
           {
-            "src": "https://assets.kelloggfashion.com/uploads/b542657c-450gms heavyweight hoodies usa-8.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/e88d3b97-350gsm heavyweight hoodie manufacturer Australia -4.jpg",
             "caption": {
               "zh": "Black heavyweight hoodie with portrait graphic print, urban streetwear style pullover sweatshirt",
               "en": "Black heavyweight hoodie with portrait graphic print, urban streetwear style pullover sweatshirt"
@@ -344,21 +287,21 @@
         },
         "items": [
           {
-            "src": "https://assets.kelloggfashion.com/uploads/6b20e40b-custom-blank-crewneck-sweatshirt-500gsm-cotton-manufacturer-3.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/39ce5a69-450gms heavyweight hoodies usa-6.jpg",
             "caption": {
               "zh": "Custom heavyweight cotton hoodie with vintage portrait print, streetwear manufacturing supplier hoodie",
               "en": "Custom heavyweight cotton hoodie with vintage portrait print, streetwear manufacturing supplier hoodie"
             }
           },
           {
-            "src": "https://assets.kelloggfashion.com/uploads/0d62c54e-custom-blank-crewneck-sweatshirt-500gsm-cotton-manufacturer-1.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/498532a1-450gms heavyweight hoodies usa-7.jpg",
             "caption": {
               "zh": "Heavyweight hoodie 500gsm, cotton streetwear hoodie with graphic portrait print, custom OEM hoodie manufacturer China",
               "en": "Heavyweight hoodie 500gsm, cotton streetwear hoodie with graphic portrait print, custom OEM hoodie manufacturer China"
             }
           },
           {
-            "src": "https://assets.kelloggfashion.com/uploads/aa9e6090-custom-blank-crewneck-sweatshirt-500gsm-cotton-manufacturer-4.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/b542657c-450gms heavyweight hoodies usa-8.jpg",
             "caption": {
               "zh": "Black heavyweight hoodie with portrait graphic print, urban streetwear style pullover sweatshirt",
               "en": "Black heavyweight hoodie with portrait graphic print, urban streetwear style pullover sweatshirt"
@@ -384,14 +327,14 @@
         },
         "items": [
           {
-            "src": "https://assets.kelloggfashion.com/uploads/900542ba-heavyweight-mens-tee-mockup-3.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/13dfb3b0-heavyweight-black-tee-mockup-1.jpg",
             "caption": {
               "zh": "heavyweight t shirt 240gsm",
               "en": "heavyweight t shirt 240gsm"
             }
           },
           {
-            "src": "https://assets.kelloggfashion.com/uploads/13dfb3b0-heavyweight-mens-tee-mockup-1.jpg",
+            "src": "https://assets.kelloggfashion.com/uploads/900542ba-heavyweight-mens-tee-mockup-3.jpg",
             "caption": {
               "zh": "380gsm heavy weight blank t shirts",
               "en": "380gsm heavy weight blank t shirts"

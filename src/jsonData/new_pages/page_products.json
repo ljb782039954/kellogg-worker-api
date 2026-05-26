@@ -1,5 +1,27 @@
 {
   "id": "products",
+  "path": "/products",
+  "title": {
+    "zh": "商品展示",
+    "en": "Products"
+  },
+  "isFixed": true,
+  "lastModified": "2026-03-24T08:41:10.016Z",
+  "seo": {
+    "title": {
+      "zh": "Unisex 400-500GSM Heavyweight Hoodie Supplier from Guangdong",
+      "en": "Unisex 400-500GSM Heavyweight Hoodie Supplier from Guangdong"
+    },
+    "description": {
+      "zh": "Offering unisex heavyweight hoodies for bulk orders. Flexible customization options and efficient production for overseas clients.",
+      "en": "Offering unisex heavyweight hoodies for bulk orders. Flexible customization options and efficient production for overseas clients."
+    },
+    "keywords": {
+      "zh": "custom streetwear manufacturing in Dongguan,high-quality hoodie supplier in China,bulk t-shirt printing manufacturer Dongguan,premium sweatshirt factory for export,400 GSM Heavyweight Hoodie Manufacturer,500 GSM French Terry Hoodie,Oversized Streetwear Hoodie OEM,Puff Print Hoodie Manufacturer,intage Wash Hoodie Supplier",
+      "en": "custom streetwear manufacturing in Dongguan,high-quality hoodie supplier in China,bulk t-shirt printing manufacturer Dongguan,premium sweatshirt factory for export,400 GSM Heavyweight Hoodie Manufacturer,500 GSM French Terry Hoodie,Oversized Streetwear Hoodie OEM,Puff Print Hoodie Manufacturer,intage Wash Hoodie Supplier"
+    },
+    "targetCountry": "United States, United Kingdom, Australia, Canada"
+  },
   "blocks": [
     {
       "id": "block_G0OiIuNZ",
@@ -18,11 +40,11 @@
           "zh": "",
           "en": "Premium heavyweight T-shirt manufacturer in China. 240–300 GSM cotton, oversized fit, custom printing & washing. Low MOQ, fast sampling."
         },
-        "image": "https://assets.kelloggfashion.com/uploads/c60b1583-20.jpg",
+        "image": "https://assets.kelloggfashion.com/uploads/20_ZAz30TgphKRQTduo.jpg",
         "linkUrl": "https://kelloggfashion.com/product/147",
         "ctaText": {
           "zh": "",
-          "en": "g"
+          "en": "S"
         }
       }
     },
@@ -31,7 +53,7 @@
       "type": "productGrid",
       "isVisible": true,
       "content": {
-        "itemsPerPage": 8
+        "itemsPerPage": 10
       }
     },
     {

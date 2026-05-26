@@ -1,5 +1,27 @@
 {
   "id": "faq",
+  "path": "/faq",
+  "title": {
+    "zh": "常见问题",
+    "en": "FAQ"
+  },
+  "isFixed": true,
+  "lastModified": "2026-03-24T08:41:10.016Z",
+  "seo": {
+    "title": {
+      "zh": "Custom Knitwear Supplier China | OEM/ODM Hoodies, Sweatshirts & T-Shirts",
+      "en": "Custom Knitwear Supplier China | OEM/ODM Hoodies, Sweatshirts & T-Shirts"
+    },
+    "description": {
+      "zh": "Private label solutions for heavyweight hoodies, including custom tags, packaging, and logos. Designed for global retailers and online stores.",
+      "en": "Private label solutions for heavyweight hoodies, including custom tags, packaging, and logos. Designed for global retailers and online stores."
+    },
+    "keywords": {
+      "zh": "high GSM heavyweight fabric clothing factory,oversized streetwear manufacturer with custom labels,eco-friendly hoodie garment supplier Dongguan",
+      "en": "high GSM heavyweight fabric clothing factory,oversized streetwear manufacturer with custom labels,eco-friendly hoodie garment supplier Dongguan"
+    },
+    "targetCountry": "United States, United Kingdom, Australia, Canada"
+  },
   "blocks": [
     {
       "id": "block_G0OafeNZ",

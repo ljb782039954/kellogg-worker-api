@@ -2,11 +2,17 @@ import { Env } from '../types';
 import { jsonResponse, errorResponse } from '../utils/response';
 
 // Import data from jsonData standard
-import pages from '../jsonData/pages.json';
+import pagesIndex from '../jsonData/new_pages/pages_index.json';
+import pageHome from '../jsonData/new_pages/page_home.json';
+import pageAbout from '../jsonData/new_pages/page_about.json';
+import pageFaq from '../jsonData/new_pages/page_faq.json';
+import pageProducts from '../jsonData/new_pages/page_products.json';
+import pageSystemInquiry from '../jsonData/new_pages/page_system-inquiry.json';
+import pageSystemBlog from '../jsonData/new_pages/page_system-blog.json';
+import pageCaseStudies from '../jsonData/new_pages/page_case-studies.json';
 import siteSetting from '../jsonData/siteSetting.json';
 import header from '../jsonData/header_config.json';
 import footer from '../jsonData/footer_config.json';
-import inquiryConfig from '../jsonData/inquiryConfig.json';
 
 /**
  * Initialize KV Data
@@ -22,9 +28,30 @@ export async function initKV(request: Request, env: Env): Promise<Response> {
   try {
     console.log('[Init] Starting KV initialization from jsonData...');
 
-    // 1. Initialize page configuration
-    await env.KELLOGG_FRONTEND_CONFIG.put('pages', JSON.stringify(pages));
-    console.log('[Init] Pages initialized');
+    // 1. Initialize pages_index and core page configs
+    await env.KELLOGG_FRONTEND_CONFIG.put('pages_index', JSON.stringify(pagesIndex));
+    console.log('[Init] pages_index initialized');
+
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:home', JSON.stringify(pageHome));
+    console.log('[Init] page:home initialized');
+
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:about', JSON.stringify(pageAbout));
+    console.log('[Init] page:about initialized');
+
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:faq', JSON.stringify(pageFaq));
+    console.log('[Init] page:faq initialized');
+
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:products', JSON.stringify(pageProducts));
+    console.log('[Init] page:products initialized');
+
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:system-inquiry', JSON.stringify(pageSystemInquiry));
+    console.log('[Init] page:system-inquiry initialized');
+
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:system-blog', JSON.stringify(pageSystemBlog));
+    console.log('[Init] page:system-blog initialized');
+
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:case-studies', JSON.stringify(pageCaseStudies));
+    console.log('[Init] page:case-studies initialized');
 
     // 2. Initialize site settings
     await env.KELLOGG_FRONTEND_CONFIG.put('site_settings', JSON.stringify(siteSetting));
@@ -38,18 +65,113 @@ export async function initKV(request: Request, env: Env): Promise<Response> {
     await env.KELLOGG_FRONTEND_CONFIG.put('footer_config', JSON.stringify(footer));
     console.log('[Init] Footer initialized');
 
-    // 5. Initialize Inquiry Config
-    await env.KELLOGG_FRONTEND_CONFIG.put('inquiry_config', JSON.stringify(inquiryConfig));
-    console.log('[Init] Inquiry config initialized');
-
     return jsonResponse({
       success: true,
-      message: 'KV data initialized successfully from jsonData',
-      initializedKeys: ['pages', 'site_settings', 'header_config', 'footer_config', 'inquiry_config']
+      message: 'KV data initialized successfully from jsonData shards',
+      initializedKeys: [
+        'pages_index',
+        'page:home',
+        'page:about',
+        'page:faq',
+        'page:products',
+        'page:system-inquiry',
+        'page:system-blog',
+        'page:case-studies',
+        'site_settings',
+        'header_config',
+        'footer_config'
+      ]
     }, env);
 
   } catch (error: any) {
     console.error('[Init] Error:', error);
     return errorResponse(`Initialization failed: ${error.message}`, env, 500);
+  }
+}
+
+/**
+ * Mark that there are pending changes in KV
+ */
+export async function markChangesPending(env: Env): Promise<void> {
+  try {
+    const statusStr = await env.KELLOGG_FRONTEND_CONFIG.get('build_status');
+    let status = { hasChanges: true, lastBuildTime: '' };
+    
+    if (statusStr) {
+      try {
+        const parsed = JSON.parse(statusStr);
+        status = {
+          ...parsed,
+          hasChanges: true
+        };
+      } catch (e) {
+        // Ignore JSON parsing errors
+      }
+    }
+    
+    await env.KELLOGG_FRONTEND_CONFIG.put('build_status', JSON.stringify(status));
+    console.log('[ChangeTracker] Marked hasChanges as true');
+  } catch (error) {
+    console.error('[ChangeTracker] Failed to mark changes pending:', error);
+  }
+}
+
+/**
+ * Trigger Cloudflare build deployment
+ */
+export async function triggerBuild(request: Request, env: Env): Promise<Response> {
+  // Simple safety check: Verify Admin Token
+  const authHeader = request.headers.get('Authorization');
+  if (authHeader !== `Bearer ${env.ADMIN_TOKEN}`) {
+    return errorResponse('Unauthorized: Please provide a valid ADMIN_TOKEN', env, 401);
+  }
+
+  const deployHookUrl = env.DEPLOY_HOOK_URL;
+  if (!deployHookUrl) {
+    return errorResponse('Deploy hook URL (DEPLOY_HOOK_URL) is not configured in Worker environment variables.', env, 500);
+  }
+
+  try {
+    console.log('[Deploy] Triggering deploy hook:', deployHookUrl);
+    
+    // Call Cloudflare Pages deploy hook
+    const response = await fetch(deployHookUrl, {
+      method: 'POST',
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      return errorResponse(`Failed to trigger deploy hook: ${response.statusText} - ${errorText}`, env, response.status);
+    }
+
+    // Update build status in KV
+    const statusStr = await env.KELLOGG_FRONTEND_CONFIG.get('build_status');
+    let status = { hasChanges: false, lastBuildTime: new Date().toISOString() };
+    
+    if (statusStr) {
+      try {
+        const parsed = JSON.parse(statusStr);
+        status = {
+          ...parsed,
+          hasChanges: false,
+          lastBuildTime: new Date().toISOString()
+        };
+      } catch (e) {
+        // Ignore
+      }
+    }
+    
+    await env.KELLOGG_FRONTEND_CONFIG.put('build_status', JSON.stringify(status));
+    console.log('[Deploy] Deploy triggered successfully, marked hasChanges as false');
+
+    return jsonResponse({
+      success: true,
+      message: 'Build triggered successfully',
+      buildStatus: status
+    }, env);
+
+  } catch (error: any) {
+    console.error('[Deploy] Error:', error);
+    return errorResponse(`Failed to trigger build: ${error.message}`, env, 500);
   }
 }

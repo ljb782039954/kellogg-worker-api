@@ -49,8 +49,28 @@ import {
   updateInquiryStatus,
   deleteInquiry,
 } from './inquiries';
+import {
+  getBlogs,
+  getBlog,
+  createBlog,
+  updateBlog,
+  deleteBlog,
+} from './blogs';
+import {
+  getBlogCategories,
+  createBlogCategory,
+  updateBlogCategory,
+  deleteBlogCategory,
+} from './blogCategories';
+import {
+  getReviews,
+  getAdminReviews,
+  createReview,
+  updateReview,
+  deleteReview,
+} from './reviews';
 import { runGarbageCollection } from '../tasks/gc';
-import { initKV } from './system';
+import { initKV, triggerBuild } from './system';
 import { fetchExchangeRates } from '../tasks/exchangeRates';
 
 // 路由匹配器
@@ -93,6 +113,16 @@ export const routes: Route[] = [
   { method: 'POST', pattern: /^\/api\/inquiries\/submit$/, handler: (req, env) => submitInquiry(req, env) },
   { method: 'POST', pattern: /^\/api\/inquiries$/, handler: (req, env) => submitInquiry(req, env) }, // 兼容别名
 
+  // 博客文章 (公开)
+  { method: 'GET', pattern: /^\/api\/blogs$/, handler: (req, env) => getBlogs(req, env) },
+  { method: 'GET', pattern: /^\/api\/blogs\/([^/]+)$/, handler: (req, env, p) => getBlog(req, env, p.id) },
+
+  // 博客分类 (公开)
+  { method: 'GET', pattern: /^\/api\/blog-categories$/, handler: (req, env) => getBlogCategories(req, env) },
+
+  // 客户评价 (公开)
+  { method: 'GET', pattern: /^\/api\/reviews$/, handler: (req, env) => getReviews(req, env) },
+
   // ============================================
   // 管理 API (需要认证，POST/PUT/DELETE)
   // ============================================
@@ -111,6 +141,22 @@ export const routes: Route[] = [
   { method: 'GET', pattern: /^\/api\/inquiries$/, handler: (req, env) => getInquiries(req, env) },
   { method: 'PATCH', pattern: /^\/api\/inquiries\/(\d+)$/, handler: (req, env, p) => updateInquiryStatus(req, env, p.id) },
   { method: 'DELETE', pattern: /^\/api\/inquiries\/(\d+)$/, handler: (req, env, p) => deleteInquiry(req, env, p.id) },
+
+  // 博客管理
+  { method: 'POST', pattern: /^\/api\/blogs$/, handler: (req, env) => createBlog(req, env) },
+  { method: 'PUT', pattern: /^\/api\/blogs\/(\d+)$/, handler: (req, env, p) => updateBlog(req, env, p.id) },
+  { method: 'DELETE', pattern: /^\/api\/blogs\/(\d+)$/, handler: (req, env, p) => deleteBlog(req, env, p.id) },
+
+  // 博客分类管理
+  { method: 'POST', pattern: /^\/api\/blog-categories$/, handler: (req, env) => createBlogCategory(req, env) },
+  { method: 'PUT', pattern: /^\/api\/blog-categories\/(\d+)$/, handler: (req, env, p) => updateBlogCategory(req, env, p.id) },
+  { method: 'DELETE', pattern: /^\/api\/blog-categories\/(\d+)$/, handler: (req, env, p) => deleteBlogCategory(req, env, p.id) },
+
+  // 客户评价管理
+  { method: 'GET', pattern: /^\/api\/admin\/reviews$/, handler: (req, env) => getAdminReviews(req, env) },
+  { method: 'POST', pattern: /^\/api\/admin\/reviews$/, handler: (req, env) => createReview(req, env) },
+  { method: 'PUT', pattern: /^\/api\/admin\/reviews\/(\d+)$/, handler: (req, env, p) => updateReview(req, env, p.id) },
+  { method: 'DELETE', pattern: /^\/api\/admin\/reviews\/(\d+)$/, handler: (req, env, p) => deleteReview(req, env, p.id) },
 
   // 文件上传
   { method: 'POST', pattern: /^\/api\/upload$/, handler: (req, env) => uploadImage(req, env) },
@@ -149,6 +195,9 @@ export const routes: Route[] = [
       await fetchExchangeRates(env);
       return new Response(JSON.stringify({ message: 'Exchange rates updated' }), { headers: { 'Content-Type': 'application/json' } });
   } },
+
+  // 主动触发构建 API
+  { method: 'POST', pattern: /^\/api\/system\/trigger-build$/, handler: (req, env) => triggerBuild(req, env) },
 
   // 数据初始化 API
   { method: 'POST', pattern: /^\/api\/system\/init-kv$/, handler: (req, env) => initKV(req, env) },
