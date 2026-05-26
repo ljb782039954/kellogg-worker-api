@@ -63,12 +63,12 @@ import {
   deleteBlogCategory,
 } from './blogCategories';
 import {
-  getReviews,
-  getAdminReviews,
-  createReview,
-  updateReview,
-  deleteReview,
-} from './reviews';
+  getCaseStudies,
+  getAdminCaseStudies,
+  createCaseStudy,
+  updateCaseStudy,
+  deleteCaseStudy,
+} from './caseStudies';
 import { runGarbageCollection } from '../tasks/gc';
 import { initKV, triggerBuild } from './system';
 import { fetchExchangeRates } from '../tasks/exchangeRates';
@@ -120,8 +120,8 @@ export const routes: Route[] = [
   // 博客分类 (公开)
   { method: 'GET', pattern: /^\/api\/blog-categories$/, handler: (req, env) => getBlogCategories(req, env) },
 
-  // 客户评价 (公开)
-  { method: 'GET', pattern: /^\/api\/reviews$/, handler: (req, env) => getReviews(req, env) },
+  // 客户案例 (公开)
+  { method: 'GET', pattern: /^\/api\/case-studies$/, handler: (req, env) => getCaseStudies(req, env) },
 
   // ============================================
   // 管理 API (需要认证，POST/PUT/DELETE)
@@ -152,11 +152,11 @@ export const routes: Route[] = [
   { method: 'PUT', pattern: /^\/api\/blog-categories\/(\d+)$/, handler: (req, env, p) => updateBlogCategory(req, env, p.id) },
   { method: 'DELETE', pattern: /^\/api\/blog-categories\/(\d+)$/, handler: (req, env, p) => deleteBlogCategory(req, env, p.id) },
 
-  // 客户评价管理
-  { method: 'GET', pattern: /^\/api\/admin\/reviews$/, handler: (req, env) => getAdminReviews(req, env) },
-  { method: 'POST', pattern: /^\/api\/admin\/reviews$/, handler: (req, env) => createReview(req, env) },
-  { method: 'PUT', pattern: /^\/api\/admin\/reviews\/(\d+)$/, handler: (req, env, p) => updateReview(req, env, p.id) },
-  { method: 'DELETE', pattern: /^\/api\/admin\/reviews\/(\d+)$/, handler: (req, env, p) => deleteReview(req, env, p.id) },
+  // 客户案例管理
+  { method: 'GET', pattern: /^\/api\/admin\/case-studies$/, handler: (req, env) => getAdminCaseStudies(req, env) },
+  { method: 'POST', pattern: /^\/api\/admin\/case-studies$/, handler: (req, env) => createCaseStudy(req, env) },
+  { method: 'PUT', pattern: /^\/api\/admin\/case-studies\/(\d+)$/, handler: (req, env, p) => updateCaseStudy(req, env, p.id) },
+  { method: 'DELETE', pattern: /^\/api\/admin\/case-studies\/(\d+)$/, handler: (req, env, p) => deleteCaseStudy(req, env, p.id) },
 
   // 文件上传
   { method: 'POST', pattern: /^\/api\/upload$/, handler: (req, env) => uploadImage(req, env) },

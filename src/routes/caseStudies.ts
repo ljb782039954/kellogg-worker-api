@@ -1,10 +1,10 @@
-import { Env, CustomerReviewRow, CreateReviewInput } from '../types';
+import { Env, CaseStudyRow, CreateCaseStudyInput } from '../types';
 import { jsonResponse, errorResponse, paginatedResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
 import { markChangesPending } from './system';
 
 // Transform a DB row into a clean API response object
-function transformReview(row: CustomerReviewRow) {
+function transformCaseStudy(row: CaseStudyRow) {
   return {
     id: row.id,
     client_name: row.client_name,
@@ -21,19 +21,19 @@ function transformReview(row: CustomerReviewRow) {
   };
 }
 
-// GET /api/reviews — Public: only published reviews, sorted by sort_order DESC
-export async function getReviews(request: Request, env: Env): Promise<Response> {
+// GET /api/case-studies — Public: only published case studies, sorted by sort_order DESC
+export async function getCaseStudies(request: Request, env: Env): Promise<Response> {
   const rows = await env.DB.prepare(
-    `SELECT * FROM customer_reviews
+    `SELECT * FROM case_studies
      WHERE status = 'published'
      ORDER BY sort_order DESC, created_at DESC`
-  ).all<CustomerReviewRow>();
+  ).all<CaseStudyRow>();
 
-  return jsonResponse((rows.results || []).map(transformReview), env, 200, request);
+  return jsonResponse((rows.results || []).map(transformCaseStudy), env, 200, request);
 }
 
-// GET /api/admin/reviews — Admin: all reviews with pagination & search
-export async function getAdminReviews(request: Request, env: Env): Promise<Response> {
+// GET /api/admin/case-studies — Admin: all case studies with pagination & search
+export async function getAdminCaseStudies(request: Request, env: Env): Promise<Response> {
   const authError = verifyAdminToken(request, env);
   if (authError) return authError;
 
@@ -60,26 +60,26 @@ export async function getAdminReviews(request: Request, env: Env): Promise<Respo
   const offset = (page - 1) * pageSize;
 
   const totalRes = await env.DB.prepare(
-    `SELECT COUNT(*) as count FROM customer_reviews ${whereString}`
+    `SELECT COUNT(*) as count FROM case_studies ${whereString}`
   ).bind(...params).first<{ count: number }>();
   const total = totalRes?.count || 0;
 
   const rows = await env.DB.prepare(
-    `SELECT * FROM customer_reviews ${whereString}
+    `SELECT * FROM case_studies ${whereString}
      ORDER BY sort_order DESC, created_at DESC
      LIMIT ? OFFSET ?`
-  ).bind(...params, pageSize, offset).all<CustomerReviewRow>();
+  ).bind(...params, pageSize, offset).all<CaseStudyRow>();
 
-  const data = (rows.results || []).map(transformReview);
+  const data = (rows.results || []).map(transformCaseStudy);
   return paginatedResponse(data, page, pageSize, total, env, request);
 }
 
-// POST /api/admin/reviews — Admin: create a review
-export async function createReview(request: Request, env: Env): Promise<Response> {
+// POST /api/admin/case-studies — Admin: create a case study
+export async function createCaseStudy(request: Request, env: Env): Promise<Response> {
   const authError = verifyAdminToken(request, env);
   if (authError) return authError;
 
-  const input = await request.json() as CreateReviewInput;
+  const input = await request.json() as CreateCaseStudyInput;
 
   if (!input.client_name?.trim()) {
     return errorResponse('必填项缺失: client_name', env, 400);
@@ -98,12 +98,12 @@ export async function createReview(request: Request, env: Env): Promise<Response
 
   // Get max sort_order for default ordering
   const maxOrder = await env.DB.prepare(
-    'SELECT MAX(sort_order) as max_order FROM customer_reviews'
+    'SELECT MAX(sort_order) as max_order FROM case_studies'
   ).first<{ max_order: number | null }>();
   const sortOrder = input.sort_order ?? ((maxOrder?.max_order ?? 0) + 1);
 
   const result = await env.DB.prepare(
-    `INSERT INTO customer_reviews
+    `INSERT INTO case_studies
        (client_name, country, rating, media_type, media_url, review_text_zh, review_text_en, sort_order, status)
      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
   ).bind(
@@ -122,20 +122,20 @@ export async function createReview(request: Request, env: Env): Promise<Response
   return jsonResponse({ id: result.meta?.last_row_id, message: '创建成功' }, env, 201);
 }
 
-// PUT /api/admin/reviews/:id — Admin: update a review
-export async function updateReview(request: Request, env: Env, id: string): Promise<Response> {
+// PUT /api/admin/case-studies/:id — Admin: update a case study
+export async function updateCaseStudy(request: Request, env: Env, id: string): Promise<Response> {
   const authError = verifyAdminToken(request, env);
   if (authError) return authError;
 
-  const reviewId = parseInt(id, 10);
-  if (isNaN(reviewId)) return errorResponse('无效的 ID', env, 400);
+  const caseStudyId = parseInt(id, 10);
+  if (isNaN(caseStudyId)) return errorResponse('无效的 ID', env, 400);
 
   const existing = await env.DB.prepare(
-    'SELECT id FROM customer_reviews WHERE id = ?'
-  ).bind(reviewId).first<{ id: number }>();
-  if (!existing) return errorResponse(`评价 ID ${id} 不存在`, env, 404);
+    'SELECT id FROM case_studies WHERE id = ?'
+  ).bind(caseStudyId).first<{ id: number }>();
+  if (!existing) return errorResponse(`案例 ID ${id} 不存在`, env, 404);
 
-  const input = await request.json() as Partial<CreateReviewInput>;
+  const input = await request.json() as Partial<CreateCaseStudyInput>;
   const updates: string[] = [];
   const params: any[] = [];
 
@@ -164,29 +164,29 @@ export async function updateReview(request: Request, env: Env, id: string): Prom
     return errorResponse('没有可更新的字段', env, 400);
   }
 
-  params.push(reviewId);
+  params.push(caseStudyId);
   await env.DB.prepare(
-    `UPDATE customer_reviews SET ${updates.join(', ')}, updated_at = CURRENT_TIMESTAMP WHERE id = ?`
+    `UPDATE case_studies SET ${updates.join(', ')}, updated_at = CURRENT_TIMESTAMP WHERE id = ?`
   ).bind(...params).run();
 
   await markChangesPending(env);
   return jsonResponse({ message: '更新成功' }, env);
 }
 
-// DELETE /api/admin/reviews/:id — Admin: delete a review
-export async function deleteReview(request: Request, env: Env, id: string): Promise<Response> {
+// DELETE /api/admin/case-studies/:id — Admin: delete a case study
+export async function deleteCaseStudy(request: Request, env: Env, id: string): Promise<Response> {
   const authError = verifyAdminToken(request, env);
   if (authError) return authError;
 
-  const reviewId = parseInt(id, 10);
-  if (isNaN(reviewId)) return errorResponse('无效的 ID', env, 400);
+  const caseStudyId = parseInt(id, 10);
+  if (isNaN(caseStudyId)) return errorResponse('无效的 ID', env, 400);
 
   const existing = await env.DB.prepare(
-    'SELECT id FROM customer_reviews WHERE id = ?'
-  ).bind(reviewId).first<{ id: number }>();
-  if (!existing) return errorResponse(`评价 ID ${id} 不存在`, env, 404);
+    'SELECT id FROM case_studies WHERE id = ?'
+  ).bind(caseStudyId).first<{ id: number }>();
+  if (!existing) return errorResponse(`案例 ID ${id} 不存在`, env, 404);
 
-  await env.DB.prepare('DELETE FROM customer_reviews WHERE id = ?').bind(reviewId).run();
+  await env.DB.prepare('DELETE FROM case_studies WHERE id = ?').bind(caseStudyId).run();
   await markChangesPending(env);
   return jsonResponse({ message: '删除成功' }, env);
 }
