@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const outputDir = path.join(__dirname, '../src/jsonData/new_pages');
+const outputDir = path.join(__dirname, '../src/kvData/pages');
 
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });

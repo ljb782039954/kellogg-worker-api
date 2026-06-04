@@ -6,6 +6,7 @@
     "en": "Fabrics"
   },
   "isFixed": false,
+  "type": "dynamic-block",
   "lastModified": "2026-05-09T14:31:25.411Z",
   "seo": {
     "title": {
@@ -116,7 +117,11 @@
               "en": "Our heavyweight French terry fabrics are developed using compact cotton yarns and high-density knitting techniques to improve durability, reduce shrinkage, and enhance fabric recovery after washing.\n\nFrench terry fabric works exceptionally well with garment dye and vintage wash treatments due to its textured loopback interior and stable heavyweight construction."
             }
           }
-        ]
+        ],
+        "subtitle": {
+          "zh": "GSM directly affects the weight, structure, and drape of a hoodie. For brands developing heavyweight streetwear collections, fabric selection is critical to achieve the desired silhouette and durability.  Learn more about how we engineer different hoodie fabrics in production here:https://kelloggfashion.com/blog/heavyweight-hoodie-fabric-guide-everything-streetwear-brands-should-know/",
+          "en": "GSM directly affects the weight, structure, and drape of a hoodie. For brands developing heavyweight streetwear collections, fabric selection is critical to achieve the desired silhouette and durability.  Learn more about how we engineer different hoodie fabrics in production here:https://kelloggfashion.com/blog/heavyweight-hoodie-fabric-guide-everything-streetwear-brands-should-know/"
+        }
       }
     },
     {
@@ -135,10 +140,10 @@
         "image": "https://assets.kelloggfashion.com/uploads/640gsm_french_terry_-2_TBBLHPduLd5pL5Lx.jpg",
         "imagePosition": "left",
         "buttonText": {
-          "zh": "Contact us for Sample",
-          "en": "Contact us for Sample"
+          "zh": "Started your project",
+          "en": "Started your project"
         },
-        "buttonLink": "https://kelloggfashion.com/products"
+        "buttonLink": "https://kelloggfashion.com/inquiry/"
       }
     },
     {
@@ -187,18 +192,11 @@
               "zh": "7009# 460gsm french terry 100% cotton, 420gsm 1x1 rib 100% cotton",
               "en": "7009# 460gsm french terry 100% cotton, 420gsm 1x1 rib 100% cotton"
             }
-          },
-          {
-            "src": "https://assets.kelloggfashion.com/uploads/5efed06e-450gsm combed cotton -1.jpg",
-            "caption": {
-              "zh": "7036# 450gsm french terry 100% cotton, 480gsm 2x2 rib 95% cotton 5% spandex",
-              "en": "7036# 450gsm french terry 100% cotton, 480gsm 2x2 rib 95% cotton 5% spandex"
-            }
           }
         ],
         "subtitle": {
-          "zh": "Heavyweight French terry fabric is widely used in premium streetwear hoodies due to its structured drape, breathable loopback construction, and oversized silhouette support. Ideal for 420gsm–600gsm hoodies, French terry delivers a cleaner luxury feel compared to standard fleece fabrics.",
-          "en": "Heavyweight French terry fabric is widely used in premium streetwear hoodies due to its structured drape, breathable loopback construction, and oversized silhouette support. Ideal for 420gsm–600gsm hoodies, French terry delivers a cleaner luxury feel compared to standard fleece fabrics."
+          "zh": "Heavyweight French terry fabric is widely used in premium streetwear hoodies due to its structured drape, breathable loopback construction, and oversized silhouette support. Ideal for 420gsm–600gsm hoodies, French terry delivers a cleaner luxury feel compared to standard fleece fabrics. GSM directly affects the weight, structure, and drape of a hoodie. For brands developing heavyweight streetwear collections, fabric selection is critical to achieve the desired silhouette and durability.Learn how GSM affects hoodie fit and silhouette: https://kelloggfashion.com/blog/480-gsm-vs-600-gsm-hoodie-fabric-which-is-better/",
+          "en": "Heavyweight French terry fabric is widely used in premium streetwear hoodies due to its structured drape, breathable loopback construction, and oversized silhouette support. Ideal for 420gsm–600gsm hoodies, French terry delivers a cleaner luxury feel compared to standard fleece fabrics. GSM directly affects the weight, structure, and drape of a hoodie. For brands developing heavyweight streetwear collections, fabric selection is critical to achieve the desired silhouette and durability.Learn how GSM affects hoodie fit and silhouette: https://kelloggfashion.com/blog/480-gsm-vs-600-gsm-hoodie-fabric-which-is-better/"
         }
       }
     },
@@ -270,18 +268,11 @@
               "zh": "0332# 350-370gsm fleece 71.27% cotton 28.73% poly, 380-400gsm 2x2 rib",
               "en": "0332# 350-370gsm fleece 71.27% cotton 28.73% poly, 380-400gsm 2x2 rib"
             }
-          },
-          {
-            "src": "https://assets.kelloggfashion.com/uploads/ed4287e0-3506 320gms fleece -2.jpg",
-            "caption": {
-              "zh": "3506# 300gsm combed cotton fleece, 340-350gsm 2x2 rib",
-              "en": "3506# 300gsm combed cotton fleece, 340-350gsm 2x2 rib"
-            }
           }
         ],
         "subtitle": {
-          "zh": "Brushed fleece fabric is a core material in heavyweight streetwear hoodies,joggers, known for its soft interior texture, insulating properties, and enhanced warmth retention. Its dense knitted structure makes it ideal for oversized silhouettes and premium winter streetwear collections.",
-          "en": "Brushed fleece fabric is a core material in heavyweight streetwear hoodies, joggers, known for its soft interior texture, insulating properties, and enhanced warmth retention. Its dense knitted structure makes it ideal for oversized silhouettes and premium winter streetwear collections."
+          "zh": "Brushed fleece fabric is a core material in heavyweight streetwear hoodies,joggers, known for its soft interior texture, insulating properties, and enhanced warmth retention. Its dense knitted structure makes it ideal for oversized silhouettes and premium winter streetwear collections. Fabric selection is one of the most important decisions in hoodie development. Different GSM levels and yarn structures will significantly affect final product performance.  We break down all fabric structures used in streetwear production here:https://kelloggfashion.com/blog/french-terry-vs-fleece-for-streetwear-which-hoodie-fabric-is-better/",
+          "en": "Brushed fleece fabric is a core material in heavyweight streetwear hoodies,joggers, known for its soft interior texture, insulating properties, and enhanced warmth retention. Its dense knitted structure makes it ideal for oversized silhouettes and premium winter streetwear collections. Fabric selection is one of the most important decisions in hoodie development. Different GSM levels and yarn structures will significantly affect final product performance.  We break down all fabric structures used in streetwear production here:https://kelloggfashion.com/blog/french-terry-vs-fleece-for-streetwear-which-hoodie-fabric-is-better/"
         }
       }
     },
@@ -331,12 +322,64 @@
               "zh": "3052# 310gsm 100% combed cotton, 310gsm 1x1 rib 97.5% cotton 2.5% spandex",
               "en": "100% combed cotton, 310gsm 1x1 rib 97.5% cotton 2.5% spandex"
             }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_E9iSZHfd",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Related Learning Resources",
+          "en": "Related Learning Resources"
+        },
+        "features": [],
+        "columns": 3,
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Hoodie Fit Guide",
+              "en": "Hoodie Fit Guide"
+            },
+            "description": {
+              "zh": "Explains how hoodie fit is engineered, including oversized, drop shoulder, and regular silhouettes. It focuses on how pattern structure, proportions, and construction details affect the final wearing shape. Read more: https://kelloggfashion.com/blog/heavyweight-hoodie-fabric-guide-everything-streetwear-brands-should-know/",
+              "en": "Explains how hoodie fit is engineered, including oversized, drop shoulder, and regular silhouettes. It focuses on how pattern structure, proportions, and construction details affect the final wearing shape. Read more: https://kelloggfashion.com/blog/heavyweight-hoodie-fabric-guide-everything-streetwear-brands-should-know/"
+            }
           },
           {
-            "src": "https://assets.kelloggfashion.com/uploads/2541eb76-320gsm fabric for oversized tshirt-1.jpg",
-            "caption": {
-              "zh": "320gsm 84% cotton 16% poly, 400gsm 1x1 rib 93% cotton 7% spandex",
-              "en": "320gsm 84% cotton 16% poly, 400gsm 1x1 rib 93% cotton 7% spandex"
+            "icon": "Star",
+            "title": {
+              "zh": "Heavyweight Hoodie Manufacturing Case",
+              "en": "Heavyweight Hoodie Manufacturing Case"
+            },
+            "description": {
+              "zh": "Showcases real development cases where brands worked with us to produce heavyweight hoodies. It highlights fabric selection, fit execution, and production decisions behind finished streetwear products. Read more: https://kelloggfashion.com/blog/how-we-developed-a-580gsm-heavyweight-hoodie-for-an-australian-streetwear-brand/",
+              "en": "Showcases real development cases where brands worked with us to produce heavyweight hoodies. It highlights fabric selection, fit execution, and production decisions behind finished streetwear products. Read more: https://kelloggfashion.com/blog/how-we-developed-a-580gsm-heavyweight-hoodie-for-an-australian-streetwear-brand/"
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Shrinkage Control in French Terry Production",
+              "en": "Shrinkage Control in French Terry Production"
+            },
+            "description": {
+              "zh": "Covers how shrinkage is managed during French terry hoodie production through fabric pre-treatment, washing processes, and production techniques to ensure stable sizing after garment completion. Read more: https://kelloggfashion.com/blog/how-kellogg-controls-shrinkage-in-heavyweight-french-terry-production/",
+              "en": "Covers how shrinkage is managed during French terry hoodie production through fabric pre-treatment, washing processes, and production techniques to ensure stable sizing after garment completion. Read more: https://kelloggfashion.com/blog/how-kellogg-controls-shrinkage-in-heavyweight-french-terry-production/"
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Best GSM for streewear hoodie",
+              "en": "Best GSM for streewear hoodie"
+            },
+            "description": {
+              "zh": "Explains how different GSM levels (from midweight to heavyweight) influence hoodie structure, drape, and market positioning, helping brands choose the right fabric weight for their collections. Read more: https://kelloggfashion.com/blog/best-gsm-for-streetwear-hoodies-a-complete-guide-for-brands/",
+              "en": "Explains how different GSM levels (from midweight to heavyweight) influence hoodie structure, drape, and market positioning, helping brands choose the right fabric weight for their collections. Read more: https://kelloggfashion.com/blog/best-gsm-for-streetwear-hoodies-a-complete-guide-for-brands/"
             }
           }
         ]

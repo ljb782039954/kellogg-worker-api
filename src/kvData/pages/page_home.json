@@ -6,6 +6,7 @@
     "en": "Home"
   },
   "isFixed": true,
+  "type": "fixed-block",
   "lastModified": "2026-03-24T08:41:09.911Z",
   "seo": {
     "title": {
@@ -59,7 +60,7 @@
           },
           {
             "id": 2,
-            "image": "https://assets.kelloggfashion.com/uploads/heayweight_hoodis_manufacturer_L7hqjWlfmANHEgUB.jpg",
+            "image": "https://assets.kelloggfashion.com/uploads/china-heavyweight-garment-factory_-7_Zh7pj3kT5rR6RTo2.jpg",
             "title": {
               "zh": "Built for Premium Streetwear Production",
               "en": "Built for Premium Streetwear Production"
@@ -85,7 +86,7 @@
           },
           {
             "id": 3,
-            "image": "https://assets.kelloggfashion.com/uploads/heayweight_hoodis_manufacturer_-2_nn83MWinv0EWNK8q.jpg",
+            "image": "https://assets.kelloggfashion.com/uploads/china-heavyweight-garment-factory_-8_ZOR9rhuVMJLpeOjD.jpg",
             "title": {
               "zh": "Premium Details Make the Difference",
               "en": "Premium Details Make the Difference"

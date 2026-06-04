@@ -228,10 +228,10 @@ export interface UpdateBlogCategoryInput {
 }
 
 // ============================================
-// Case Study Types
+// Customer Review Types
 // ============================================
 
-export interface CaseStudyRow {
+export interface CustomerReviewRow {
   id: number;
   client_name: string;
   country: string | null;
@@ -246,7 +246,7 @@ export interface CaseStudyRow {
   updated_at: string;
 }
 
-export interface CreateCaseStudyInput {
+export interface CreateReviewInput {
   client_name: string;
   country?: string;
   rating?: number;

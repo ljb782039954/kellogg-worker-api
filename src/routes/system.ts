@@ -2,17 +2,17 @@ import { Env } from '../types';
 import { jsonResponse, errorResponse } from '../utils/response';
 
 // Import data from jsonData standard
-import pagesIndex from '../jsonData/new_pages/pages_index.json';
-import pageHome from '../jsonData/new_pages/page_home.json';
-import pageAbout from '../jsonData/new_pages/page_about.json';
-import pageFaq from '../jsonData/new_pages/page_faq.json';
-import pageProducts from '../jsonData/new_pages/page_products.json';
-import pageSystemInquiry from '../jsonData/new_pages/page_system-inquiry.json';
-import pageSystemBlog from '../jsonData/new_pages/page_system-blog.json';
-import pageCaseStudies from '../jsonData/new_pages/page_case-studies.json';
-import siteSetting from '../jsonData/siteSetting.json';
-import header from '../jsonData/header_config.json';
-import footer from '../jsonData/footer_config.json';
+import pagesIndex from '../kvData/pages/pages_index.json';
+import pageHome from '../kvData/pages/page_home.json';
+import pageAbout from '../kvData/pages/page_about.json';
+import pageFaq from '../kvData/pages/page_faq.json';
+import pageProducts from '../kvData/pages/page_products.json';
+import pageSystemInquiry from '../kvData/pages/page_system-inquiry.json';
+import pageSystemBlog from '../kvData/pages/page_system-blog.json';
+import pageCustomerReviews from '../kvData/pages/page_customer-reviews.json';
+import siteSetting from '../kvData/siteSetting.json';
+import header from '../kvData/header_config.json';
+import footer from '../kvData/footer_config.json';
 
 /**
  * Initialize KV Data
@@ -50,8 +50,8 @@ export async function initKV(request: Request, env: Env): Promise<Response> {
     await env.KELLOGG_FRONTEND_CONFIG.put('page:system-blog', JSON.stringify(pageSystemBlog));
     console.log('[Init] page:system-blog initialized');
 
-    await env.KELLOGG_FRONTEND_CONFIG.put('page:case-studies', JSON.stringify(pageCaseStudies));
-    console.log('[Init] page:case-studies initialized');
+    await env.KELLOGG_FRONTEND_CONFIG.put('page:customer-reviews', JSON.stringify(pageCustomerReviews));
+    console.log('[Init] page:customer-reviews initialized');
 
     // 2. Initialize site settings
     await env.KELLOGG_FRONTEND_CONFIG.put('site_settings', JSON.stringify(siteSetting));
@@ -76,7 +76,7 @@ export async function initKV(request: Request, env: Env): Promise<Response> {
         'page:products',
         'page:system-inquiry',
         'page:system-blog',
-        'page:case-studies',
+        'page:customer-reviews',
         'site_settings',
         'header_config',
         'footer_config'

@@ -8,7 +8,17 @@
     },
     "isFixed": true,
     "type": "fixed-layout",
-    "lastModified": "2026-05-09T14:31:25.380Z"
+    "lastModified": "2026-05-26T00:00:00.000Z",
+    "content": {
+      "title": {
+        "zh": "联系我们要样品",
+        "en": "Contact Us For Samples"
+      },
+      "description": {
+        "zh": "如果您有任何关于产品的咨询，请填写下方表格，我们的团队会尽快与您联系。",
+        "en": "If you have any inquiries about our products, please fill out the form below and our team will get back to you as soon as possible."
+      }
+    }
   },
   {
     "id": "home",
@@ -113,23 +123,12 @@
     "id": "page_04nJbSUr",
     "path": "/service",
     "title": {
-      "zh": "Clothing development",
-      "en": "Clothing development"
+      "zh": "Sample / Clothing Development",
+      "en": "Sample / Clothing Development"
     },
     "isFixed": false,
     "type": "dynamic-block",
     "lastModified": "2026-05-09T14:31:25.412Z"
-  },
-  {
-    "id": "page_dN08AxrE",
-    "path": "/service2",
-    "title": {
-      "zh": "Labels / Tags / Packing",
-      "en": "Labels / Tags / Packing"
-    },
-    "isFixed": false,
-    "type": "dynamic-block",
-    "lastModified": "2026-05-09T14:31:25.445Z"
   },
   {
     "id": "page_LqoCA7TD",
@@ -153,16 +152,6 @@
     "type": "dynamic-block"
   },
   {
-    "id": "page_M4rOqEH6",
-    "path": "/blog-invalid",
-    "title": {
-      "zh": "Blog",
-      "en": "Blog"
-    },
-    "isFixed": false,
-    "type": "dynamic-block"
-  },
-  {
     "id": "system-blog",
     "path": "/blog",
     "title": {
@@ -174,14 +163,24 @@
     "lastModified": "2026-05-20T00:00:00.000Z"
   },
   {
-    "id": "case-studies",
-    "path": "/case-studies",
+    "id": "customer-reviews",
+    "path": "/customer-reviews",
     "title": {
-      "zh": "客户案例",
-      "en": "Case Studies"
+      "zh": "客户评价",
+      "en": "Customer Reviews"
     },
     "isFixed": true,
     "type": "fixed-layout",
-    "lastModified": "2026-05-26T00:00:00.000Z"
+    "lastModified": "2026-05-27T00:00:00.000Z"
+  },
+  {
+    "id": "page_3nH4BuZ2",
+    "path": "/heavyweight-hoodie",
+    "title": {
+      "zh": "Heavyweight Hoodie",
+      "en": "Heavyweight Hoodie"
+    },
+    "isFixed": false,
+    "type": "dynamic-block"
   }
 ]

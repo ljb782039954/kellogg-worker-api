@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const KV_NAMESPACE = 'KELLOGG_FRONTEND_CONFIG';
-const DIR = path.join(__dirname, '../src/jsonData/new_pages');
+const DIR = path.join(__dirname, '../src/kvData/pages');
 
 console.log('Uploading pages to KV...');
 

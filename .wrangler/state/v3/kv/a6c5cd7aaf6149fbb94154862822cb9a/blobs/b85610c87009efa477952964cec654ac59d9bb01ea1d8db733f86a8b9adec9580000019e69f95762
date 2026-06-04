@@ -2,10 +2,11 @@
   "id": "page_04nJbSUr",
   "path": "/service",
   "title": {
-    "zh": "Clothing development",
-    "en": "Clothing development"
+    "zh": "Sample / Clothing Development",
+    "en": "Sample / Clothing Development"
   },
   "isFixed": false,
+  "type": "dynamic-block",
   "lastModified": "2026-05-09T14:31:25.412Z",
   "seo": {
     "title": {

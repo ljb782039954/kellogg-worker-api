@@ -7,22 +7,22 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BINDING = 'KELLOGG_FRONTEND_CONFIG';
-const DATA_DIR = path.resolve(__dirname, '../src/jsonData');
-const NEW_PAGES_DIR = path.resolve(DATA_DIR, 'new_pages');
+const DATA_DIR = path.resolve(__dirname, '../src/kvData');
+const PAGES_DIR = path.resolve(DATA_DIR, 'pages');
 
 // 确保目录存在
-if (!fs.existsSync(NEW_PAGES_DIR)) {
-  fs.mkdirSync(NEW_PAGES_DIR, { recursive: true });
+if (!fs.existsSync(PAGES_DIR)) {
+  fs.mkdirSync(PAGES_DIR, { recursive: true });
 }
 
 // 映射 KV key 到本地文件名
 function getLocalPath(key) {
   if (key === 'pages_index') {
-    return path.join(NEW_PAGES_DIR, 'pages_index.json');
+    return path.join(PAGES_DIR, 'pages_index.json');
   }
   if (key.startsWith('page:')) {
     const pageId = key.substring(5); // page:about -> about
-    return path.join(NEW_PAGES_DIR, `page_${pageId}.json`);
+    return path.join(PAGES_DIR, `page_${pageId}.json`);
   }
   if (key === 'exchangeRates') {
     return path.join(DATA_DIR, 'exchangeRates.json');

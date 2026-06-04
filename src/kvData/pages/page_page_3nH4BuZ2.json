@@ -1,0 +1,449 @@
+{
+  "id": "page_3nH4BuZ2",
+  "path": "/heavyweight-hoodie",
+  "title": {
+    "zh": "Heavyweight Hoodie",
+    "en": "Heavyweight Hoodie"
+  },
+  "isFixed": false,
+  "type": "dynamic-block",
+  "seo": {
+    "title": {
+      "zh": "Heavyweight Hoodie Manufacturer | 480–600 GSM French Terry Streetwear Hoodies",
+      "en": "Heavyweight Hoodie Manufacturer | 480–600 GSM French Terry Streetwear Hoodies"
+    },
+    "description": {
+      "zh": "Custom heavyweight hoodie manufacturer specializing in 480–600 GSM French terry oversized streetwear hoodies. Sampling, OEM & bulk production for global brands.",
+      "en": "Custom heavyweight hoodie manufacturer specializing in 480–600 GSM French terry oversized streetwear hoodies. Sampling, OEM & bulk production for global brands."
+    },
+    "keywords": {
+      "zh": "Heavyweight Hoodie Manufacturer,Heavyweight Hoodie Factory,Custom Heavyweight Hoodies,French Terry Hoodie Manufacturer,Oversized Hoodie Manufacturer,480 GSM Hoodie Manufacturer,600 GSM Hoodie Factory,Streetwear Hoodie Manufacturer,Oversized French Terry Hoodie,Custom Streetwear Hoodie Supplier,Premium Heavyweight Hoodie Production,Cut and Sew Hoodie Manufacturer",
+      "en": "Heavyweight Hoodie Manufacturer,Heavyweight Hoodie Factory,Custom Heavyweight Hoodies,French Terry Hoodie Manufacturer,Oversized Hoodie Manufacturer,480 GSM Hoodie Manufacturer,600 GSM Hoodie Factory,Streetwear Hoodie Manufacturer,Oversized French Terry Hoodie,Custom Streetwear Hoodie Supplier,Premium Heavyweight Hoodie Production,Cut and Sew Hoodie Manufacturer"
+    },
+    "targetCountry": "United States, United Kingdom, Australia, Canada"
+  },
+  "blocks": [
+    {
+      "id": "block_zXmlEEHH",
+      "type": "carousel",
+      "isVisible": true,
+      "content": {
+        "autoPlay": true,
+        "interval": 5000,
+        "items": [
+          {
+            "id": 1,
+            "image": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-10_UsPRztfx8HbdZM97.jpg",
+            "title": {
+              "zh": "Heavyweight Hoodie Manufacturer for Modern Streetwear Brands",
+              "en": "Heavyweight Hoodie Manufacturer for Modern Streetwear Brands"
+            },
+            "subtitle": {
+              "zh": "Premium heavyweight hoodie manufacturing with custom fabrics, oversized fits, and high-GSM French terry production for global streetwear brands.",
+              "en": "Premium heavyweight hoodie manufacturing with custom fabrics, oversized fits, and high-GSM French terry production for global streetwear brands."
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "wenugllpc",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/inquiry",
+              "pageDeleted": false
+            }
+          },
+          {
+            "id": 2,
+            "image": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-11_2UCGGvkh1H3rATp0.jpg",
+            "title": {
+              "zh": "Engineered for Structure, Fit, and Durability",
+              "en": "Engineered for Structure, Fit, and Durability"
+            },
+            "subtitle": {
+              "zh": "From fabric development to garment construction, we focus on shrinkage control, silhouette balance, and long-lasting heavyweight performance.",
+              "en": "From fabric development to garment construction, we focus on shrinkage control, silhouette balance, and long-lasting heavyweight performance."
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "z546prcy5",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/inquiry",
+              "pageDeleted": false
+            }
+          },
+          {
+            "id": 3,
+            "image": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-12_qakdrhaRKl7U0y5d.jpg",
+            "title": {
+              "zh": "Custom Heavyweight Hoodie Production from Sampling to Bulk",
+              "en": "Custom Heavyweight Hoodie Production from Sampling to Bulk"
+            },
+            "subtitle": {
+              "zh": "Flexible MOQ, custom dyeing, printing, embroidery, and full-package manufacturing support for emerging and established apparel brands.",
+              "en": "Flexible MOQ, custom dyeing, printing, embroidery, and full-package manufacturing support for emerging and established apparel brands."
+            },
+            "cta": {
+              "zh": "立即行动",
+              "en": "Take Action"
+            },
+            "link": {
+              "id": "dfesyvxzg",
+              "name": {
+                "zh": "立即行动",
+                "en": "Take Action"
+              },
+              "linkType": "internal",
+              "href": "/inquiry",
+              "pageDeleted": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_GocJzMK1",
+      "type": "imageFull",
+      "isVisible": false,
+      "content": {
+        "image": "https://assets.kelloggfashion.com/uploads/5_ePlEDWQGDf1nu57k.png",
+        "height": "large",
+        "overlay": false,
+        "description": {
+          "zh": "Custom heavyweight hoodie manufacturing with 480–600 GSM French Terry fabric, oversized fit development, sampling, and bulk production for global streetwear brands.",
+          "en": "Custom heavyweight hoodie manufacturing with 480–600 GSM French Terry fabric, oversized fit development, sampling, and bulk production for global streetwear brands."
+        },
+        "width": "full",
+        "alt": {
+          "zh": "Custom heavyweight oversized hoodies 480-600 GSM french terry streetwear manufacturer",
+          "en": "Custom heavyweight oversized hoodies 480-600 GSM french terry streetwear manufacturer"
+        }
+      }
+    },
+    {
+      "id": "block_nEiflSZj",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Why Streetwear Brands Work With Kellogg",
+          "en": "Why Streetwear Brands Work With Kellogg"
+        },
+        "features": [],
+        "columns": 3,
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "1. Heavyweight Fabric Specialization",
+              "en": "1. Heavyweight Fabric Specialization"
+            },
+            "description": {
+              "zh": "We specialize in 480–600 GSM heavyweight French Terry and fleece fabrics designed for premium streetwear collections. Our team understands how fabric weight affects silhouette, structure, and overall garment feel.",
+              "en": "We specialize in 480–600 GSM heavyweight French Terry and fleece fabrics designed for premium streetwear collections. Our team understands how fabric weight affects silhouette, structure, and overall garment feel."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "2. Oversized Fit Development",
+              "en": "2. Oversized Fit Development"
+            },
+            "description": {
+              "zh": "Modern streetwear requires more than basic sizing. We develop oversized fits with drop shoulders, boxy proportions, and relaxed silhouettes tailored for contemporary fashion brands.",
+              "en": "Modern streetwear requires more than basic sizing. We develop oversized fits with drop shoulders, boxy proportions, and relaxed silhouettes tailored for contemporary fashion brands."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "3. Sampling Focused on Brand Accuracy",
+              "en": "3. Sampling Focused on Brand Accuracy"
+            },
+            "description": {
+              "zh": "From tech pack review to fit adjustments, we help brands refine details before bulk production. Our sampling process is built to reduce production risks and improve consistency.",
+              "en": "From tech pack review to fit adjustments, we help brands refine details before bulk production. Our sampling process is built to reduce production risks and improve consistency."
+            }
+          },
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "4. OEM & ODM Manufacturing Support",
+              "en": "4. OEM & ODM Manufacturing Support"
+            },
+            "description": {
+              "zh": "Whether brands need fully custom development or ready-to-customize hoodie blanks, we provide flexible OEM and ODM solutions for global markets.",
+              "en": "Whether brands need fully custom development or ready-to-customize hoodie blanks, we provide flexible OEM and ODM solutions for global markets."
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "Our production approach is built around the needs of modern streetwear brands rather than traditional promotional apparel.",
+          "en": "Our production approach is built around the needs of modern streetwear brands rather than traditional promotional apparel."
+        }
+      }
+    },
+    {
+      "id": "block_ZJxB31bN",
+      "type": "imageText",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "We understand the importance of silhouette, fabric structure, and fit balance in modern streetwear hoodie production.",
+          "en": "We understand the importance of silhouette, fabric structure, and fit balance in modern streetwear hoodie production."
+        },
+        "content": {
+          "zh": "In modern streetwear hoodie production, great garments are not created by fabric weight alone. A true heavyweight hoodie is built through the balance of silhouette, fabric structure, and fit proportions.//\n\nSilhouette defines how the hoodie feels visually when worn. Modern streetwear brands focus heavily on shape — including drop shoulders, boxy body proportions, sleeve volume, and overall drape. The goal is not simply to make garments oversized, but to create a strong and intentional silhouette that reflects the identity of the brand.//\n\nFabric structure plays an equally important role. Two hoodies may use the same GSM weight, but achieve completely different results depending on yarn quality, knitting density, and fabric behavior. A well-structured French Terry fabric provides stability, clean drape, and shape retention, allowing the garment to maintain its intended silhouette after repeated wear and washing.//\n\nFit balance is what separates premium streetwear hoodies from standard oversized garments. Every proportion must work together — shoulder width, body length, sleeve volume, hood shape, and rib tension. Oversized fit is not about simply scaling up measurements; it requires careful adjustment to preserve comfort, structure, and visual balance.//\n\nAt Kellogg, we understand that modern streetwear production is not only about manufacturing clothing. It is about translating a brand’s aesthetic into fabric, silhouette, and fit with consistency and precision.",
+          "en": "In modern streetwear hoodie production, great garments are not created by fabric weight alone. A true heavyweight hoodie is built through the balance of silhouette, fabric structure, and fit proportions.//\n\nSilhouette defines how the hoodie feels visually when worn. Modern streetwear brands focus heavily on shape — including drop shoulders, boxy body proportions, sleeve volume, and overall drape. The goal is not simply to make garments oversized, but to create a strong and intentional silhouette that reflects the identity of the brand.//\n\nFabric structure plays an equally important role. Two hoodies may use the same GSM weight, but achieve completely different results depending on yarn quality, knitting density, and fabric behavior. A well-structured French Terry fabric provides stability, clean drape, and shape retention, allowing the garment to maintain its intended silhouette after repeated wear and washing.//\n\nFit balance is what separates premium streetwear hoodies from standard oversized garments. Every proportion must work together — shoulder width, body length, sleeve volume, hood shape, and rib tension. Oversized fit is not about simply scaling up measurements; it requires careful adjustment to preserve comfort, structure, and visual balance.//\n\nAt Kellogg, we understand that modern streetwear production is not only about manufacturing clothing. It is about translating a brand’s aesthetic into fabric, silhouette, and fit with consistency and precision."
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/china-heavyweight-garment-factory_-5_gNGsIO1ZH4C2krVE.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "Start Your Project",
+          "en": "Start Your Project"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry/"
+      }
+    },
+    {
+      "id": "block_4Vhx2Z1B",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "450-640GSM Heavyweight Hoodies",
+          "en": "450-640GSM Heavyweight Hoodies"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/8_DitPzJKXnjFveXDQ.png",
+            "caption": {
+              "zh": "Oversized silhouette with balanced proportions and drop shoulder construction designed for modern streetwear brands.",
+              "en": "Oversized silhouette with balanced proportions and drop shoulder construction designed for modern streetwear brands."
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/450gms_heavyweight_hoodies_usa-6_ZWgnZQ7z6m93V8qA.jpg",
+            "caption": {
+              "zh": "Model wearing heavyweight oversized hoodie 640 GSM streetwear outfit in urban setting",
+              "en": "Model wearing heavyweight oversized hoodie 640 GSM streetwear outfit in urban setting"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/350gsm_heavyweight_hoodie_manufacturer_Australia_-1_3QCNpspjcOKCitMi.jpg",
+            "caption": {
+              "zh": "Editorial streetwear outfit featuring premium heavyweight hoodie minimal modern fashion",
+              "en": "Editorial streetwear outfit featuring premium heavyweight hoodie minimal modern fashion"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_YfY2emU6",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Heavyweight Hoodie Construction Details",
+          "en": "Heavyweight Hoodie Construction Details"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-6_EqDKm5Sspbs2UnrX.jpg",
+            "caption": {
+              "zh": "Precision Sewing & Heavyweight Construction",
+              "en": "Precision Sewing & Heavyweight Construction"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-7_tYhCnDOOhMCPR174.png",
+            "caption": {
+              "zh": "Premium heavyweight hoodie craftsmanship close up",
+              "en": "Premium heavyweight hoodie craftsmanship close up"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-8_j1ukbeRi29Ao1RYk.png",
+            "caption": {
+              "zh": "Every heavyweight hoodie is constructed with reinforced stitching, structured seam finishing, and carefully balanced proportions to support modern oversized streetwear silhouettes.",
+              "en": "Every heavyweight hoodie is constructed with reinforced stitching, structured seam finishing, and carefully balanced proportions to support modern oversized streetwear silhouettes."
+            }
+          }
+        ],
+        "subtitle": {
+          "zh": "Precision sewing and reinforced construction designed for 480–600 GSM heavyweight hoodies, ensuring durability, structure, and long-term shape retention.",
+          "en": "Precision sewing and reinforced construction designed for 480–600 GSM heavyweight hoodies, ensuring durability, structure, and long-term shape retention."
+        }
+      }
+    },
+    {
+      "id": "block_t4_N3cR_",
+      "type": "gallery",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "Hoodie Factory Production Process (China OEM Manufacturer)",
+          "en": "Hoodie Factory Production Process (China OEM Manufacturer)"
+        },
+        "images": [],
+        "columns": 3,
+        "items": [
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/china-heavyweight-garment-factory_-1_cqANcSHY7ppwakq2.jpg",
+            "caption": {
+              "zh": "Step 1: Fabric cutting",
+              "en": "Step 1: Fabric cutting"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/china-heavyweight-garment-factory_-3_1SzmcXKRMW6sdszZ.JPG",
+            "caption": {
+              "zh": "Step 2: Sewing",
+              "en": "Step 2: Sewing"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-8_KRwufMKZ1dqYsUPX.jpg",
+            "caption": {
+              "zh": "Step 3: Quality inspection",
+              "en": "Step 3: Quality inspection"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/heavyweight_hoodie_stitching_detail_french_terry_streetwear_production_-9_l46rzgFPVPDdgNNn.png",
+            "caption": {
+              "zh": "Step 4: Packaging",
+              "en": "Step 4: Packaging"
+            }
+          },
+          {
+            "src": "https://assets.kelloggfashion.com/uploads/china-heavyweight-garment-factory_-2_Hv7CvMLjTJNAeaDF.jpg",
+            "caption": {
+              "zh": "Step 5: Shipping",
+              "en": "Step 5: Shipping"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_f0_1bY9P",
+      "type": "imageText",
+      "isVisible": false,
+      "content": {
+        "title": {
+          "zh": "Start Your Custom Hoodie Production With Us",
+          "en": "Start Your Custom Hoodie Production With Us"
+        },
+        "content": {
+          "zh": "We specialize in OEM & ODM heavyweight hoodie manufacturing for global streetwear brands. From fabric development (480–600 GSM) to cutting, sewing, quality control, packaging, and export shipping, we provide a fully integrated production system in China.//\n\nHeavyweight hoodie production (480–600 GSM) //\nOEM & ODM customization support //\nStrict stitching & quality control system //\nFast sampling & bulk production capability  //\nExport-ready packaging & global shipping //\n\nOur production workflow:Fabric Development → Cutting → Sewing → Quality Inspection → Packaging → Shipping //\n\nLearn more about our manufacturing system://\nHeavyweight Hoodie Fabric Guide:(https://kelloggfashion.com/blog/heavyweight-hoodie-fabric-guide-everything-streetwear-brands-should-know/) . //\n\nHoodie Sewing & Construction Process: (https://kelloggfashion.com/blog/best-gsm-for-streetwear-hoodies-a-complete-guide-for-brands/) .//\n\nStreetwear Hoodie Fit Development Guide:(https://kelloggfashion.com/blog/how-we-developed-a-580gsm-heavyweight-hoodie-for-an-australian-streetwear-brand/) .//\n\nOEM ODM Hoodie Manufacturer Overview:(https://kelloggfashion.com/blog/what-makes-a-good-oversized-hoodie-fit-streetwear-fit-guide/) . //\n\nLooking for a reliable hoodie manufacturer for your brand? //\n\nSend us your design or tech pack and we will provide://\nQuotation within 24 hours //\nFabric recommendations //\nSample development support",
+          "en": "We specialize in OEM & ODM heavyweight hoodie manufacturing for global streetwear brands. From fabric development (480–600 GSM) to cutting, sewing, quality control, packaging, and export shipping, we provide a fully integrated production system in China.//\n\nHeavyweight hoodie production (480–600 GSM) //\nOEM & ODM customization support //\nStrict stitching & quality control system //\nFast sampling & bulk production capability  //\nExport-ready packaging & global shipping //\n\nOur production workflow:Fabric Development → Cutting → Sewing → Quality Inspection → Packaging → Shipping //\n\nLearn more about our manufacturing system://\nHeavyweight Hoodie Fabric Guide:(https://kelloggfashion.com/blog/heavyweight-hoodie-fabric-guide-everything-streetwear-brands-should-know/) . //\n\nHoodie Sewing & Construction Process: (https://kelloggfashion.com/blog/best-gsm-for-streetwear-hoodies-a-complete-guide-for-brands/) .//\n\nStreetwear Hoodie Fit Development Guide:(https://kelloggfashion.com/blog/how-we-developed-a-580gsm-heavyweight-hoodie-for-an-australian-streetwear-brand/) .//\n\nOEM ODM Hoodie Manufacturer Overview:(https://kelloggfashion.com/blog/what-makes-a-good-oversized-hoodie-fit-streetwear-fit-guide/) . //\n\nLooking for a reliable hoodie manufacturer for your brand? //\n\nSend us your design or tech pack and we will provide://\nQuotation within 24 hours //\nFabric recommendations //\nSample development support"
+        },
+        "image": "https://assets.kelloggfashion.com/uploads/46_dgtLZKlL9HxfxuZ0.jpg",
+        "imagePosition": "left",
+        "buttonText": {
+          "zh": "Contact Factory Team",
+          "en": "Contact Factory Team"
+        },
+        "buttonLink": "https://kelloggfashion.com/inquiry/"
+      }
+    },
+    {
+      "id": "block_bdD1d2IG",
+      "type": "faq",
+      "isVisible": true,
+      "content": {
+        "maxItems": 5,
+        "showMoreLink": true,
+        "subtitle": {
+          "zh": "Frequently Asked Questions About Hoodie Manufacturing",
+          "en": "Frequently Asked Questions About Hoodie Manufacturing"
+        },
+        "items": [
+          {
+            "id": 1,
+            "question": {
+              "zh": "Q1. What is your MOQ for hoodie production?",
+              "en": "Q1. What is your MOQ for hoodie production?"
+            },
+            "answer": {
+              "zh": "Answer: Our MOQ for custom hoodie production usually starts from 100–300 pieces per design, depending on fabric, color, and customization requirements.",
+              "en": "Answer: Our MOQ for custom hoodie production usually starts from 100–300 pieces per design, depending on fabric, color, and customization requirements."
+            }
+          },
+          {
+            "id": 2,
+            "question": {
+              "zh": "Q2. What is the production time for hoodies?",
+              "en": "Q2. What is the production time for hoodies?"
+            },
+            "answer": {
+              "zh": "Answer: Sample development takes around 7–14 days. Bulk production typically takes 25–35 days after sample approval.",
+              "en": "Answer: Sample development takes around 7–14 days. Bulk production typically takes 25–35 days after sample approval."
+            }
+          },
+          {
+            "id": 3,
+            "question": {
+              "zh": "Q3. Can you produce heavyweight hoodies (480–600 GSM)?",
+              "en": "Q3. Can you produce heavyweight hoodies (480–600 GSM)?"
+            },
+            "answer": {
+              "zh": "Answer: Yes, we specialize in heavyweight hoodie production ranging from 480 GSM to 600 GSM, including French terry and brushed fleece fabrics.",
+              "en": "Answer: Yes, we specialize in heavyweight hoodie production ranging from 480 GSM to 600 GSM, including French terry and brushed fleece fabrics."
+            }
+          },
+          {
+            "id": 4,
+            "question": {
+              "zh": "Q4. Do you offer OEM and ODM services?",
+              "en": "Q4. Do you offer OEM and ODM services?"
+            },
+            "answer": {
+              "zh": "Answer: Yes, we provide full OEM & ODM services including fabric sourcing, pattern development, sampling, and bulk production.",
+              "en": "Answer: Yes, we provide full OEM & ODM services including fabric sourcing, pattern development, sampling, and bulk production."
+            }
+          },
+          {
+            "id": 5,
+            "question": {
+              "zh": "Q5. Can you help with fabric and fit development?",
+              "en": "Q5. Can you help with fabric and fit development?"
+            },
+            "answer": {
+              "zh": "Answer: Yes, we support fabric selection, GSM recommendation, and oversized or drop shoulder fit development for streetwear brands.",
+              "en": "Answer: Yes, we support fabric selection, GSM recommendation, and oversized or drop shoulder fit development for streetwear brands."
+            }
+          },
+          {
+            "id": 6,
+            "question": {
+              "zh": "Q6. Do you ship internationally?",
+              "en": "Q6. Do you ship internationally?"
+            },
+            "answer": {
+              "zh": "Answer: Yes, we ship globally including the US, Australia, and Europe with export-ready packaging.",
+              "en": "Answer: Yes, we ship globally including the US, Australia, and Europe with export-ready packaging."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

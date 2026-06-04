@@ -50,47 +50,15 @@
     {
       "id": "1778236405740",
       "name": {
-        "zh": "关于我们",
-        "en": "About us"
+        "zh": "制造",
+        "en": "Manufacturing"
       },
       "linkType": "internal",
       "href": "/technology",
       "pageDeleted": false,
       "children": [
         {
-          "id": "GE6lR529",
-          "name": {
-            "zh": "关于我们",
-            "en": "About us"
-          },
-          "linkType": "internal",
-          "href": "/about",
-          "pageDeleted": false
-        },
-        {
-          "id": "tHnRABpx",
-          "name": {
-            "zh": "常见问题",
-            "en": "FAQ"
-          },
-          "linkType": "internal",
-          "href": "/faq",
-          "pageDeleted": false
-        }
-      ]
-    },
-    {
-      "id": "1778236406348",
-      "name": {
-        "zh": " 我们的能力",
-        "en": "Our capabilities"
-      },
-      "linkType": "internal",
-      "href": "/solutions",
-      "pageDeleted": false,
-      "children": [
-        {
-          "id": "5oWU3dx7",
+          "id": "L6tc9LuF",
           "name": {
             "zh": "面料",
             "en": "Fabrics"
@@ -100,9 +68,9 @@
           "pageDeleted": false
         },
         {
-          "id": "8XzEaI-r",
+          "id": "sBW6gBmZ",
           "name": {
-            "zh": "技术",
+            "zh": "工艺技术",
             "en": "Technology"
           },
           "linkType": "internal",
@@ -110,7 +78,7 @@
           "pageDeleted": false
         },
         {
-          "id": "ukAl_SOK",
+          "id": "QDog9VMA",
           "name": {
             "zh": "解决方案",
             "en": "Solutions"
@@ -120,9 +88,9 @@
           "pageDeleted": false
         },
         {
-          "id": "xqogwByV",
+          "id": "xqxqN7f_",
           "name": {
-            "zh": "开发服务",
+            "zh": "款式开发",
             "en": "Development"
           },
           "linkType": "internal",
@@ -132,10 +100,62 @@
       ]
     },
     {
+      "id": "1778236406348",
+      "name": {
+        "zh": " 关于我们",
+        "en": "About"
+      },
+      "linkType": "internal",
+      "href": "/solutions",
+      "pageDeleted": false,
+      "children": [
+        {
+          "id": "5oWU3dx7",
+          "name": {
+            "zh": " 关于我们",
+            "en": "About"
+          },
+          "linkType": "internal",
+          "href": "/about",
+          "pageDeleted": false
+        },
+        {
+          "id": "8XzEaI-r",
+          "name": {
+            "zh": "客户案例",
+            "en": "Case study"
+          },
+          "linkType": "internal",
+          "href": "/case-studies",
+          "pageDeleted": false
+        },
+        {
+          "id": "ukAl_SOK",
+          "name": {
+            "zh": "博客",
+            "en": "Blog"
+          },
+          "linkType": "internal",
+          "href": "/blog",
+          "pageDeleted": false
+        },
+        {
+          "id": "xqogwByV",
+          "name": {
+            "zh": "问答",
+            "en": "FAQ"
+          },
+          "linkType": "internal",
+          "href": "/faq",
+          "pageDeleted": false
+        }
+      ]
+    },
+    {
       "id": "Wf5n2LTs",
       "name": {
         "zh": "联系我们",
-        "en": "Contact us"
+        "en": "Contact"
       },
       "linkType": "internal",
       "href": "",
@@ -148,16 +168,6 @@
           },
           "linkType": "internal",
           "href": "/inquiry",
-          "pageDeleted": false
-        },
-        {
-          "id": "4xY_DOIb",
-          "name": {
-            "zh": "博客",
-            "en": "Blog"
-          },
-          "linkType": "internal",
-          "href": "/blog",
           "pageDeleted": false
         }
       ]
