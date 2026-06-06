@@ -2,6 +2,7 @@ import { Env, CustomerReviewRow, CreateReviewInput } from '../types';
 import { jsonResponse, errorResponse, paginatedResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
 import { markChangesPending } from './system';
+import { updateMediaReferences } from '../utils/media';
 
 // Transform a DB row into a clean API response object
 function transformReview(row: CustomerReviewRow) {
@@ -118,8 +119,12 @@ export async function createReview(request: Request, env: Env): Promise<Response
     input.status || 'published'
   ).run();
 
+  const reviewId = result.meta?.last_row_id;
+  if (reviewId) {
+    await updateMediaReferences(env.DB, 'review', reviewId.toString(), `${input.client_name.trim()} 的评价`, input);
+  }
   await markChangesPending(env);
-  return jsonResponse({ id: result.meta?.last_row_id, message: '创建成功' }, env, 201);
+  return jsonResponse({ id: reviewId, message: '创建成功' }, env, 201);
 }
 
 // PUT /api/admin/reviews/:id — Admin: update a review
@@ -169,6 +174,11 @@ export async function updateReview(request: Request, env: Env, id: string): Prom
     `UPDATE customer_reviews SET ${updates.join(', ')}, updated_at = CURRENT_TIMESTAMP WHERE id = ?`
   ).bind(...params).run();
 
+  const review = await env.DB.prepare('SELECT * FROM customer_reviews WHERE id = ?').bind(reviewId).first<CustomerReviewRow>();
+  if (review) {
+    await updateMediaReferences(env.DB, 'review', reviewId.toString(), `${review.client_name} 的评价`, review);
+  }
+
   await markChangesPending(env);
   return jsonResponse({ message: '更新成功' }, env);
 }
@@ -187,6 +197,7 @@ export async function deleteReview(request: Request, env: Env, id: string): Prom
   if (!existing) return errorResponse(`评价 ID ${id} 不存在`, env, 404);
 
   await env.DB.prepare('DELETE FROM customer_reviews WHERE id = ?').bind(reviewId).run();
+  await updateMediaReferences(env.DB, 'review', reviewId.toString(), '', null);
   await markChangesPending(env);
   return jsonResponse({ message: '删除成功' }, env);
 }

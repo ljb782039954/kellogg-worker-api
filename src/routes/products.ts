@@ -3,6 +3,7 @@ import { jsonResponse, errorResponse, paginatedResponse } from '../utils/respons
 import { verifyAdminToken } from '../utils/auth';
 import { transformProduct } from '../utils/transform';
 import { markChangesPending } from './system';
+import { updateMediaReferences } from '../utils/media';
 
 export async function getProducts(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
@@ -167,6 +168,7 @@ export async function createProduct(request: Request, env: Env): Promise<Respons
     }
   }
 
+  await updateMediaReferences(env.DB, 'product', productId.toString(), input.name_zh || input.name_en || '未命名商品', input);
   await markChangesPending(env);
   return jsonResponse({ id: productId, message: '创建成功' }, env, 201);
 }
@@ -269,6 +271,18 @@ export async function updateProduct(request: Request, env: Env, id: string): Pro
     }
   }
 
+  // Update media references based on complete updated product
+  const row = await env.DB.prepare('SELECT * FROM products WHERE id = ?').bind(productId).first<ProductRow>();
+  if (row) {
+    const images = await env.DB.prepare('SELECT * FROM product_images WHERE product_id = ?').bind(productId).all<ProductImageRow>();
+    const sizes = await env.DB.prepare('SELECT * FROM product_sizes WHERE product_id = ?').bind(productId).all<ProductSizeRow>();
+    const colors = await env.DB.prepare('SELECT * FROM product_colors WHERE product_id = ?').bind(productId).all<ProductColorRow>();
+    const videos = await env.DB.prepare('SELECT * FROM product_videos WHERE product_id = ?').bind(productId).all<ProductVideoRow>();
+    const fullProduct = { ...row, images: images.results, sizes: sizes.results, colors: colors.results, videos: videos.results };
+    
+    await updateMediaReferences(env.DB, 'product', productId.toString(), row.name_zh || row.name_en || '未命名商品', fullProduct);
+  }
+
   await markChangesPending(env);
   return jsonResponse({ message: '更新成功' }, env);
 }
@@ -278,6 +292,7 @@ export async function deleteProduct(request: Request, env: Env, id: string): Pro
   if (authError) return authError;
 
   await env.DB.prepare('DELETE FROM products WHERE id = ?').bind(id).run();
+  await updateMediaReferences(env.DB, 'product', id, '', null);
   await markChangesPending(env);
   return jsonResponse({ message: '删除成功' }, env);
 }

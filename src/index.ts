@@ -8,6 +8,7 @@ import {
 } from './utils/response';
 
 import { fetchExchangeRates } from './tasks/exchangeRates';
+// import { runGarbageCollection } from './tasks/gc';
 import { routes } from './routes';
 
 export default {
@@ -52,9 +53,10 @@ export default {
         ctx.waitUntil(fetchExchangeRates(env));
     }
     
-    // 如果是每周 GC 任务（暂时不启用）
-    // if (event.cron === '* * * * *' || event.cron === '0 3 * * SUN' || event.cron.includes('SUN')) {
-    //     ctx.waitUntil(runGarbageCollection(env));
-    // }
+    // Weekly GC task for orphaned R2 assets (DISABLED)
+    if (event.cron === '0 3 * * SUN' || event.cron.includes('SUN')) {
+        console.log('[Cron] Weekly GC task is currently disabled.');
+        // ctx.waitUntil(runGarbageCollection(env));
+    }
   }
 };

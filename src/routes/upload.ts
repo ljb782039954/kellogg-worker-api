@@ -20,6 +20,7 @@ export async function uploadImage(request: Request, env: Env): Promise<Response>
   const file = formData.get('file') as unknown as File;
   const width = formData.get('width') as string || '';
   const height = formData.get('height') as string || '';
+  const hash = formData.get('hash') as string || '';
 
   if (!file) {
     return errorResponse('未提供文件', env, 400);
@@ -42,6 +43,7 @@ export async function uploadImage(request: Request, env: Env): Promise<Response>
       originalName: file.name,
       width,
       height,
+      hash,
       uploadedAt: new Date().toISOString()
     }
   });
@@ -119,6 +121,42 @@ export async function listImages(request: Request, env: Env): Promise<Response> 
   const authError = verifyAdminToken(request, env);
   if (authError) return authError;
 
+  // 1. Query all reference relations
+  let refs: Array<{ image_key: string; entity_type: string; entity_name: string; entity_id: string }> = [];
+  try {
+    const refsRes = await env.DB.prepare(
+      'SELECT image_key, entity_type, entity_name, entity_id FROM media_references'
+    ).all<{ image_key: string; entity_type: string; entity_name: string; entity_id: string }>();
+    refs = refsRes.results || [];
+  } catch (err) {
+    console.error('[UploadRoute] Failed to fetch media references:', err);
+  }
+
+  // Aggregate references to Map
+  const refMap = new Map<string, Array<{ type: string; name: string; id: string }>>();
+  
+  // Transform type to friendly Chinese labels for front-end
+  const friendlyTypes: Record<string, string> = {
+    product: '产品',
+    category: '分类',
+    page: '页面',
+    blog: '博客',
+    review: '评价',
+    global: '全局配置'
+  };
+
+  refs.forEach(r => {
+    if (!refMap.has(r.image_key)) {
+      refMap.set(r.image_key, []);
+    }
+    const typeLabel = friendlyTypes[r.entity_type] || r.entity_type;
+    refMap.get(r.image_key)!.push({
+      type: typeLabel,
+      name: r.entity_name || '未命名实体',
+      id: r.entity_id
+    });
+  });
+
   // 列出 uploads 目录下的图片
   const listed = await env.ASSETS.list({
     prefix: 'uploads/',
@@ -137,6 +175,8 @@ export async function listImages(request: Request, env: Env): Promise<Response> 
       thumbUrl: `${env.ASSETS_BASE_URL}/thumbnails/${filename}`,
       size: obj.size,
       dimensions: meta.width && meta.height ? `${meta.width}x${meta.height}` : undefined,
+      hash: meta.hash || undefined,
+      usages: refMap.get(obj.key) || [],
       uploaded: obj.uploaded
     };
   });

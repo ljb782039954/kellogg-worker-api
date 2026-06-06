@@ -70,7 +70,7 @@ import {
   deleteReview,
 } from './reviews';
 import { runGarbageCollection } from '../tasks/gc';
-import { initKV, triggerBuild } from './system';
+import { initKV, triggerBuild, syncMediaReferences } from './system';
 import { fetchExchangeRates } from '../tasks/exchangeRates';
 
 // 路由匹配器
@@ -201,4 +201,7 @@ export const routes: Route[] = [
 
   // 数据初始化 API
   { method: 'POST', pattern: /^\/api\/system\/init-kv$/, handler: (req, env) => initKV(req, env) },
+
+  // 媒体引用关系同步 API
+  { method: 'POST', pattern: /^\/api\/system\/sync-media-references$/, handler: (req, env) => syncMediaReferences(req, env) },
 ];

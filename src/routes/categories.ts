@@ -4,6 +4,7 @@ import { jsonResponse, errorResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
 import { transformCategory } from '../utils/transform';
 import { markChangesPending } from './system';
+import { updateMediaReferences } from '../utils/media';
 
 // 获取所有分类
 export async function getCategories(
@@ -67,6 +68,7 @@ export async function createCategory(
     input.sort_order || 0
   ).run();
 
+  await updateMediaReferences(env.DB, 'category', input.id, input.name_zh || input.name_en || '未命名分类', input);
   await markChangesPending(env);
   return jsonResponse({ id: input.id, message: '分类创建成功' }, env, 201);
 }
@@ -117,6 +119,11 @@ export async function updateCategory(
     ).bind(...params).run();
   }
 
+  const cat = await env.DB.prepare('SELECT * FROM categories WHERE id = ?').bind(id).first<CategoryRow>();
+  if (cat) {
+    await updateMediaReferences(env.DB, 'category', id, cat.name_zh || cat.name_en || '未命名分类', cat);
+  }
+
   await markChangesPending(env);
   return jsonResponse({ message: '分类更新成功' }, env);
 }
@@ -142,6 +149,7 @@ export async function deleteCategory(
     return errorResponse('分类不存在', env, 404);
   }
 
+  await updateMediaReferences(env.DB, 'category', id, '', null);
   await markChangesPending(env);
   return jsonResponse({ message: '分类删除成功' }, env);
 }

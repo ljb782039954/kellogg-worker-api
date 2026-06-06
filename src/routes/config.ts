@@ -3,6 +3,7 @@ import { Env, CustomPage, CompanyInfo, HeaderContent, FooterContent } from '../t
 import { jsonResponse, errorResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
 import { markChangesPending } from './system';
+import { updateMediaReferences } from '../utils/media';
 
 /**
  * 默认配置 (Bootstrap Data)
@@ -51,6 +52,21 @@ export async function setConfig(
   if (!key) return errorResponse('缺少配置 key', env, 400);
 
   await env.KELLOGG_FRONTEND_CONFIG.put(key, JSON.stringify(value));
+
+  // Update media references for KV config items
+  if (key.startsWith('page:')) {
+    const pageVal = value as any;
+    const titleObj = pageVal.title || {};
+    const title = typeof titleObj === 'string' ? titleObj : (titleObj.zh || titleObj.en || '未命名页面');
+    await updateMediaReferences(env.DB, 'page', key, `页面: ${title}`, value);
+  } else if (key === 'site_settings') {
+    await updateMediaReferences(env.DB, 'global', key, '公司全局配置', value);
+  } else if (key === 'header_config') {
+    await updateMediaReferences(env.DB, 'global', key, '顶部导航栏', value);
+  } else if (key === 'footer_config') {
+    await updateMediaReferences(env.DB, 'global', key, '页脚配置', value);
+  }
+
   await markChangesPending(env);
   return jsonResponse({ message: '配置保存成功', key }, env);
 }
@@ -69,6 +85,13 @@ export async function deleteConfig(
   if (!key) return errorResponse('缺少配置 key', env, 400);
 
   await env.KELLOGG_FRONTEND_CONFIG.delete(key);
+
+  // Clear media references
+  if (key.startsWith('page:') || key === 'site_settings' || key === 'header_config' || key === 'footer_config') {
+    const type = key.startsWith('page:') ? 'page' : 'global';
+    await updateMediaReferences(env.DB, type, key, '', null);
+  }
+
   await markChangesPending(env);
   return jsonResponse({ message: '配置删除成功', key }, env);
 }

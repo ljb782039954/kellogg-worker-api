@@ -48,7 +48,7 @@ async function run() {
   // 1. 获取远程的 key 列表
   let keysList;
   try {
-    const output = execSync(`npx wrangler kv key list --binding=${BINDING}`, { encoding: 'utf8' });
+    const output = execSync(`npx wrangler kv key list --binding=${BINDING}`, { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 });
     keysList = JSON.parse(output);
     console.log(`✅ 成功获取远程 key 列表，共 ${keysList.length} 个 key。`);
   } catch (error) {
@@ -66,7 +66,7 @@ async function run() {
     console.log(`📥 正在拉取 KV 键: "${key}"...`);
     let value;
     try {
-      value = execSync(`npx wrangler kv key get "${key}" --binding=${BINDING}`, { encoding: 'utf8' }).trim();
+      value = execSync(`npx wrangler kv key get "${key}" --binding=${BINDING}`, { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 }).trim();
     } catch (error) {
       console.error(`❌ 拉取键 "${key}" 失败:`, error.message);
       continue;
@@ -96,7 +96,7 @@ async function run() {
       // 临时将值写入一个临时文件，然后通过 --path 参数放入，避免命令行字符过长报错或转义问题
       const tempFile = path.join(__dirname, `temp_${key.replace(/:/g, '_')}.json`);
       fs.writeFileSync(tempFile, formattedValue, 'utf8');
-      execSync(`npx wrangler kv key put "${key}" --binding=${BINDING} --path="${tempFile}" --local`);
+      execSync(`npx wrangler kv key put "${key}" --binding=${BINDING} --path="${tempFile}" --local`, { maxBuffer: 50 * 1024 * 1024 });
       fs.unlinkSync(tempFile);
       console.log(`   ⚙️ 已同步到本地 KV (--local)`);
     } catch (error) {

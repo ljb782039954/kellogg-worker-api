@@ -1,40 +1,62 @@
-# Kellogg API
+# worker-api — 后端 API
 
-基于 Cloudflare Workers 的 Serverless 后端 API 服务，为 Kellogg 电商系统提供高性能的边缘数据接口。
+Cloudflare Workers + D1 (SQLite) + KV + R2。零运行时依赖。
 
-## 架构说明
+---
 
-- **计算层 (Workers)**: 负责路由分发、请求鉴权、业务逻辑处理以及图片云端优化重定向 (`/cdn-cgi/image/`)。
-- **结构化数据 (D1 SQLite)**: 存储具有强关系特征的数据模型（如：产品库、分类目录、客户询盘）。
-- **灵活配置层 (KV)**: 存储动态积木页面（分离式架构：`pages_index` 索引 + `page:[id]` 详情）以及全局站点配置（导航、页脚、公司信息）。
-- **对象存储 (R2)**: 统一保存管理端上传的媒体资产，通过专属资源域名对外提供服务。
+## src/ 目录导航
 
-## 目录结构
-
-```text
-worker-api/
-├── migrations/              # D1 数据库 SQL 迁移文件
-├── src/
-│   ├── index.ts            # Worker 核心入口与定时任务 (Cron) 拦截
-│   ├── routes/             # API 模块化路由
-│   │   ├── routes.ts       # 路由策略分发器
-│   │   ├── products.ts     # 商品管理接口
-│   │   ├── categories.ts   # 分类管理接口
-│   │   ├── config.ts       # KV 动态配置与页面构建器接口
-│   │   ├── upload.ts       # R2 图片上传与展示接口
-│   │   ├── inquiries.ts    # 客户询盘表单接口
-│   │   └── system.ts       # 系统初始化辅助接口
-│   ├── tasks/              # 异步任务脚本
-│   │   ├── gc.ts           # R2 孤儿图片清理 (支持手动触发)
-│   │   └── exchangeRates.ts# 全球汇率自动同步
-│   ├── utils/              # 响应封装与 Token 鉴权中间件
-│   └── types/              # 全局 TypeScript 接口定义
-└── wrangler.toml           # Cloudflare 环境与资源绑定配置
+```
+index.ts           Worker 入口（路由分发 + Cron 定时任务）
+routes/            10个路由模块
+├── index.ts       ~40条路由注册表（method + 正则 → handler）
+├── products.ts    商品 CRUD（含6个子表关联查询）
+├── categories.ts  分类 CRUD（"all" 受保护）
+├── config.ts      KV 配置读写（含页面分片存储逻辑）
+├── upload.ts      R2 上传/代理（支持 Range 视频流）
+├── inquiries.ts   询盘 CRUD（公开提交 + 管理员管理）
+├── blogs.ts       博客 CRUD（slug 校验 / 自动 view_count）
+├── blogCategories.ts  博客分类 CRUD（级联更新博客）
+├── reviews.ts     客户评价 CRUD（公开仅 published）
+└── system.ts      系统功能（initKV / triggerBuild / syncMediaReferences）
+tasks/
+├── exchangeRates.ts   Cron 汇率同步（ExchangeRate-API → KV）
+└── gc.ts              垃圾回收（已禁用）
+types/              类型定义
+├── api-input.ts    核心文件：Env / 全部 DB Row / Create*Input
+└── ...其他
+utils/
+├── auth.ts         Bearer Token 认证
+├── response.ts     CORS / JSON / 分页 / 错误响应 + URL 重写
+├── transform.ts    Row → API 对象（_zh/_en 合并为 Translation）
+└── media.ts        媒体引用追踪
+kvData/             KV 预设数据（init-kv 的种子数据）
+migrations/         D1 迁移（9个文件，共 11 个表）
 ```
 
-## 开发与部署
+---
 
-- **本地开发**: `npm run dev` (启动 Wrangler 本地模拟环境，默认端口 `8787`)
-- **生产发布**: `npm run deploy` (编译部署至 Cloudflare 全球边缘节点)
+## 架构要点
 
-> **环境依赖**: 确保在 Cloudflare 仪表盘或通过 Wrangler CLI 正确配置了 `DB`, `ASSETS`, `KELLOGG_FRONTEND_CONFIG` 绑定，以及必要的敏感环境变量（如 `ADMIN_TOKEN`）。
+### 三层存储职责划分
+- **D1**：核心业务实体（商品、分类、博客、询盘、评价、媒体引用关系）
+- **KV**：站点配置（页面Schema、公司信息、导航、页脚、汇率、构建状态）
+- **R2**：媒体文件（图片/视频，通过 `ASSETS_BASE_URL` CDN 服务）
+
+### 页面读取策略（三层降级）
+`getPageById()` 优先查 `page:{id}`（分片详情），降级到 `pages_index` 中查找，再降级到旧版 `pages` 数组兼容。`getPages()` 优先读轻量 `pages_index` 而非完整数据。
+
+### 媒体引用追踪
+每次写操作（商品/分类/博客/KV页面/评价）后调用 `updateMediaReferences()`，它先 `DELETE` 旧记录再批量 `INSERT` 新记录到 `media_references` 表。`extractMediaKeys()` 递归提取对象中所有 `uploads/` 路径的 key。
+
+### 认证模式
+非 Express 中间件模式，而是各 handler 函数内部手动调用 `requireAuth()`。如果环境未配置 `ADMIN_TOKEN` 则跳过验证（开发模式），生产环境需要 Bearer Token。
+
+### 开发环境 URL 重写
+`transformMediaUrls()` 检测请求是否来自 localhost，如是则将响应数据中的 `https://assets.kelloggfashion.com` 替换为本地 Worker 地址，避免图片 404。
+
+### 认证感知的商品查询
+`getProducts()` 根据请求是否携带有效 `Authorization` 决定是否显示 `is_active=0` 的商品。未认证用户只能看到上架商品。
+
+### Cron 定时任务
+`wrangler.toml` 中声明 `triggers`，`index.ts` 的 `scheduled()` 入口根据 cron 表达式匹配执行对应任务。汇率同步每日 0 点执行，GC 每周日执行（已禁用）。

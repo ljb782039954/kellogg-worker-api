@@ -1,0 +1,129 @@
+{
+  "linkGroups": [
+    {
+      "id": "g2",
+      "title": {
+        "zh": "About Us",
+        "en": "About Us"
+      },
+      "links": [
+        {
+          "id": "1778236042167",
+          "name": {
+            "zh": "FAQ",
+            "en": "FAQ"
+          },
+          "linkType": "internal",
+          "href": "/faq",
+          "pageDeleted": false
+        },
+        {
+          "id": "1778236105546",
+          "name": {
+            "zh": "Customer Reviews",
+            "en": "Customer Reviews"
+          },
+          "linkType": "internal",
+          "href": "/about",
+          "pageDeleted": false
+        },
+        {
+          "id": "1778236174222",
+          "name": {
+            "zh": "Privacy Policy",
+            "en": "Privacy Policy"
+          },
+          "linkType": "internal",
+          "href": "/about",
+          "pageDeleted": false
+        },
+        {
+          "id": "1778291386288",
+          "name": {
+            "zh": "咨询我们",
+            "en": "Inquiry"
+          },
+          "linkType": "internal",
+          "href": "/inquiry",
+          "pageDeleted": false
+        }
+      ]
+    },
+    {
+      "id": "1777089959085",
+      "title": {
+        "zh": "Each Link",
+        "en": "Each Link"
+      },
+      "links": [
+        {
+          "id": "1777090131053",
+          "name": {
+            "zh": "美国站点",
+            "en": "United States"
+          },
+          "linkType": "internal",
+          "href": "/usa-heavyweight-hoodie-manufacturer",
+          "pageDeleted": false
+        },
+        {
+          "id": "1777090153085",
+          "name": {
+            "zh": "英国站点",
+            "en": "United Kingdom"
+          },
+          "linkType": "internal",
+          "href": "/uk-streetwear-clothing-manufacturer",
+          "pageDeleted": false
+        },
+        {
+          "id": "1777124817554",
+          "name": {
+            "zh": "澳大利亚站点",
+            "en": "Australia"
+          },
+          "linkType": "internal",
+          "href": "/australia-heavyweight-tshirt-supplier",
+          "pageDeleted": false
+        },
+        {
+          "id": "1777471404932",
+          "name": {
+            "zh": "加拿大站点",
+            "en": "Canada"
+          },
+          "linkType": "internal",
+          "href": "/canada-blank-apparel-supplier",
+          "pageDeleted": false
+        }
+      ]
+    },
+    {
+      "id": "1779208576234",
+      "title": {
+        "zh": "更多",
+        "en": "More"
+      },
+      "links": [
+        {
+          "id": "1779208581002",
+          "name": {
+            "zh": "博客",
+            "en": "Blog"
+          },
+          "linkType": "internal",
+          "href": "/blog",
+          "pageDeleted": false
+        }
+      ]
+    }
+  ],
+  "newsletterPlaceholder": {
+    "zh": "Subscribe",
+    "en": "Subscribe"
+  },
+  "newsletterButton": {
+    "zh": "Subscribe",
+    "en": "Subscribe"
+  }
+}

@@ -2,6 +2,7 @@ import { Env, BlogRow, CreateBlogInput } from '../types';
 import { jsonResponse, errorResponse, paginatedResponse } from '../utils/response';
 import { verifyAdminToken } from '../utils/auth';
 import { markChangesPending } from './system';
+import { updateMediaReferences } from '../utils/media';
 
 // Transform a raw DB row into a clean blog object for API response
 function transformBlog(row: BlogRow) {
@@ -184,8 +185,10 @@ export async function createBlog(request: Request, env: Env): Promise<Response> 
       input.publish_date || null,
     ).run();
 
+    const blogId = result.meta.last_row_id;
+    await updateMediaReferences(env.DB, 'blog', blogId.toString(), input.title_zh || input.title_en || '未命名博客', input);
     await markChangesPending(env);
-    return jsonResponse({ id: result.meta.last_row_id, message: '创建成功' }, env, 201);
+    return jsonResponse({ id: blogId, message: '创建成功' }, env, 201);
   } catch (err: any) {
     if (err?.message?.includes('UNIQUE')) {
       return errorResponse(`Slug "${input.slug}" 已存在，请更换`, env, 409);
@@ -233,6 +236,11 @@ export async function updateBlog(request: Request, env: Env, id: string): Promis
     `UPDATE blogs SET ${updates.join(', ')}, updated_at = CURRENT_TIMESTAMP WHERE id = ?`
   ).bind(...params).run();
 
+  const blog = await env.DB.prepare('SELECT * FROM blogs WHERE id = ?').bind(blogId).first<BlogRow>();
+  if (blog) {
+    await updateMediaReferences(env.DB, 'blog', blogId.toString(), blog.title_zh || blog.title_en || '未命名博客', blog);
+  }
+
   await markChangesPending(env);
   return jsonResponse({ message: '更新成功' }, env);
 }
@@ -247,6 +255,7 @@ export async function deleteBlog(request: Request, env: Env, id: string): Promis
   if (!existing) return errorResponse('文章不存在', env, 404);
 
   await env.DB.prepare('DELETE FROM blogs WHERE id = ?').bind(blogId).run();
+  await updateMediaReferences(env.DB, 'blog', blogId.toString(), '', null);
   await markChangesPending(env);
   return jsonResponse({ message: '删除成功' }, env);
 }
