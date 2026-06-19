@@ -8,6 +8,8 @@ export interface Env {
   ADMIN_TOKEN?: string;
   EXCHANGE_RATE_API_KEY?: string;
   DEPLOY_HOOK_URL?: string;
+  TURNSTILE_SECRET_KEY?: string;
+  TURNSTILE_ALLOWED_HOSTNAMES?: string;
 }
 
 
@@ -146,7 +148,8 @@ export interface CreateInquiryInput {
   company?: string;
   product_type?: string;
   quantity?: string;
-  message?: string;
+  message: string;
+  turnstileToken: string;
 }
 
 // ============================================
@@ -257,5 +260,4 @@ export interface CreateReviewInput {
   sort_order?: number;
   status?: 'published' | 'draft';
 }
-
 

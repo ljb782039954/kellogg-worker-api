@@ -1,0 +1,55 @@
+{
+  "id": "case-studies",
+  "blocks": [
+    {
+      "id": "block_lb5vUs1t",
+      "type": "imageBanner",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "他们说的，是最好的证明",
+          "en": "Their Words, Our Best Proof"
+        },
+        "subtitle": {
+          "zh": "来自全球街头品牌买家的真实穿搭视频与成衣评价，见证 Kellogg Fashion 的制造品质。",
+          "en": "Real try-on videos and honest reviews from global streetwear brand buyers — witness Kellogg Fashion quality firsthand."
+        },
+        "image": "",
+        "height": "medium",
+        "overlay": true
+      }
+    },
+    {
+      "id": "block_cnLkbe81",
+      "type": "caseStudies",
+      "isVisible": true,
+      "content": {}
+    },
+    {
+      "id": "block_IJNLhsn8",
+      "type": "ctaBanner",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "准备好定制您的专属产品了吗？",
+          "en": "Ready to Create Your Custom Line?"
+        },
+        "subtitle": {
+          "zh": "加入来自美国、英国、澳大利亚的品牌客户，体验 Kellogg Fashion 的品质服务。",
+          "en": "Join brand buyers from the US, UK, and Australia. Experience Kellogg Fashion quality."
+        },
+        "values": {
+          "alignment": "center",
+          "backgroundColor": "#030712",
+          "primaryButton": {
+            "name": {
+              "zh": "立即发起询盘",
+              "en": "Start Your Inquiry"
+            },
+            "href": "/inquiry"
+          }
+        }
+      }
+    }
+  ]
+}

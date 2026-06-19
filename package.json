@@ -1,8 +1,10 @@
 {
   "name": "kellogg-api",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "db:migrate": "wrangler d1 migrations apply kellogg-frontend-db --remote",

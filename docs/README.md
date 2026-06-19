@@ -2,6 +2,15 @@
 
 Cloudflare Workers + D1 (SQLite) + KV + R2。零运行时依赖。
 
+## 询盘安全配置
+
+- 公开询盘接口在写入 D1 前强制校验 Cloudflare Turnstile。
+- 生产环境通过 `wrangler secret put TURNSTILE_SECRET_KEY` 配置密钥，禁止写入仓库。
+- `TURNSTILE_ALLOWED_HOSTNAMES` 配置允许的生产域名。
+- 部署询盘防护前必须执行 `0010_inquiry_abuse_protection.sql` 迁移。
+- 同一 IP 十分钟最多提交五次；相同邮箱和内容五分钟内拒绝重复写入。
+- 本地开发需在 `.dev.vars` 中使用 Cloudflare 官方测试 secret，生产 secret 只能通过 Wrangler Secret 配置。
+
 ---
 
 ## src/ 目录导航

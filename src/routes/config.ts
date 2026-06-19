@@ -108,17 +108,42 @@ export async function getPages(request: Request, env: Env): Promise<Response> {
   }
   const rawPages: any[] = pages || [];
 
-  // 数据兼容性处理：如果旧数据缺失 seo 字段，自动根据标题补全
-  const patchedPages = rawPages.map(page => ({
-    ...page,
-    seo: page.seo || {
-      title: { 
-        zh: `${page.title?.zh || ''} | KELLOGG`, 
-        en: `${page.title?.en || ''} | KELLOGG` 
-      },
-      description: { zh: '', en: '' }
-    }
-  }));
+  // 并发读取各页面详情，动态提取真实的 blockCount，并在缺少 SEO 字段时自动根据标题补全
+  const patchedPages = await Promise.all(
+    rawPages.map(async (page) => {
+      if (page.type !== 'fixed-layout') {
+        try {
+          const pageDetail = await env.KELLOGG_FRONTEND_CONFIG.get(`page:${page.id}`, 'json') as any;
+          if (pageDetail) {
+            return {
+              ...page,
+              blockCount: pageDetail.blocks?.length ?? 0,
+              seo: page.seo || pageDetail.seo || {
+                title: { 
+                  zh: `${page.title?.zh || ''} | KELLOGG`, 
+                  en: `${page.title?.en || ''} | KELLOGG` 
+                },
+                description: { zh: '', en: '' }
+              }
+            };
+          }
+        } catch (e) {
+          console.error(`Failed to load block count for page ${page.id}:`, e);
+        }
+      }
+      return {
+        ...page,
+        blockCount: 0,
+        seo: page.seo || {
+          title: { 
+            zh: `${page.title?.zh || ''} | KELLOGG`, 
+            en: `${page.title?.en || ''} | KELLOGG` 
+          },
+          description: { zh: '', en: '' }
+        }
+      };
+    })
+  );
 
   return jsonResponse(patchedPages, env, 200, request);
 }

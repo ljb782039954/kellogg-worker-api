@@ -105,6 +105,7 @@ export const routes: Route[] = [
   { method: 'GET', pattern: /^\/api\/config\/site_settings$/, handler: (req, env) => getSiteSettings(req, env) },
   { method: 'GET', pattern: /^\/api\/config\/site-settings$/, handler: (req, env) => getSiteSettings(req, env) }, // 兼容旧版
   { method: 'GET', pattern: /^\/api\/config\/pages$/, handler: (req, env) => getPages(req, env) },
+  { method: 'GET', pattern: /^\/api\/config\/pages_index$/, handler: (req, env) => getPages(req, env) },
   { method: 'GET', pattern: /^\/api\/config\/pages\/([^/]+)$/, handler: (req, env, p) => getPageById(req, env, p.id) },
   { method: 'GET', pattern: /^\/api\/pages$/, handler: (req, env) => getPages(req, env) }, // 别名
   { method: 'GET', pattern: /^\/api\/pages\/([^/]+)$/, handler: (req, env, p) => getPageById(req, env, p.id) }, // 别名

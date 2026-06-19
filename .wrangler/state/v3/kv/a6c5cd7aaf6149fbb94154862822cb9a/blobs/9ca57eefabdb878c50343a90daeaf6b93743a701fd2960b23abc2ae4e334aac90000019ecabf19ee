@@ -1,0 +1,40 @@
+{
+  "id": "page_L4dW_Oo-",
+  "blocks": [
+    {
+      "id": "block_l8Zl11cO",
+      "type": "featureList",
+      "isVisible": true,
+      "content": {
+        "title": {
+          "zh": "我们的优势",
+          "en": "Our Features"
+        },
+        "features": [],
+        "columns": 3,
+        "items": [
+          {
+            "icon": "Star",
+            "title": {
+              "zh": "Why 500–600gsm Hoodies Are Dominating the Streetwear Market",
+              "en": "Why 500–600gsm Hoodies Are Dominating the Streetwear Market"
+            },
+            "description": {
+              "zh": "",
+              "en": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_NUiAMItP",
+      "type": "faq",
+      "isVisible": true,
+      "content": {
+        "maxItems": 5,
+        "showMoreLink": true
+      }
+    }
+  ]
+}
